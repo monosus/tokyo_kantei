@@ -1,0 +1,594 @@
+/* =========================================================
+ footer
+========================================================== */
+.footer {
+  min-width: 1263px;
+  width: 100%;
+  background-color: #434343;
+  font-size: 14px;
+  color: #ccc;
+  overflow: hidden; }
+  @media screen and (max-width: 768px) {
+    .footer {
+      min-width: 0;
+      font-size: 12px; } }
+  .footer .footer-login {
+    display: none; }
+    @media screen and (max-width: 768px) {
+      .footer .footer-login {
+        display: table;
+        table-layout: fixed;
+        width: 100%; }
+        .footer .footer-login li {
+          display: table-cell;
+          width: 50%;
+          vertical-align: top; }
+          .footer .footer-login li a {
+            display: block;
+            padding: 1.2em 0;
+            width: 100%;
+            height: auto;
+            text-align: center;
+            color: #fff;
+            line-height: 1.2; }
+          .footer .footer-login li.admission a {
+            padding: 1.75em 0 !important;
+            background: #23318f; }
+          .footer .footer-login li.login a {
+            background-color: #f7ab00;
+            text-align: center; }
+            .footer .footer-login li.login a span {
+              display: inline-block;
+              padding: 0 1.2em 0 0;
+              background: url("/common/img/ico_arrow_r_32x32_01.png") no-repeat right center;
+              background-size: 16px;
+              text-align: left; } }
+        @media screen and (max-width: 768px) and (max-width: 768px) {
+          .footer .footer-login li.login a span {
+            display: inline-block;
+            position: relative;
+            padding-right: 0;
+            padding-left: 1.2em;
+            background: none; } }
+    @media screen and (max-width: 768px) {
+              .footer .footer-login li.login a span::before {
+                content: '';
+                display: inline-block;
+                position: absolute;
+                left: 0;
+                top: 0;
+                margin-right: 3px;
+                width: 19px;
+                height: 17px;
+                background: url("/common/img/ico_key_30x28_01.png") no-repeat left top;
+                background-size: contain;
+                vertical-align: text-bottom; } }
+          @media screen and (max-width: 768px) and (max-width: 768px) {
+            .footer .footer-login li.login a span::before {
+              width: 15px;
+              height: 13px; } }
+
+  .footer .footer-in {
+    margin: 0 auto;
+    padding: 1.6em 0 0;
+    max-width: 1140px; }
+    @media screen and (max-width: 768px) {
+      .footer .footer-in {
+        padding: 2em 0 0; } }
+    .footer .footer-in .footer-utility {
+      padding: 0 0 20px;
+      position: relative;
+      overflow: hidden; }
+      @media screen and (max-width: 768px) {
+        .footer .footer-in .footer-utility {
+          padding: 0 1em 1em; } }
+      .footer .footer-in .footer-utility .footer-links {
+        float: left;
+        margin-bottom: 1em;
+        line-height: 1; }
+        @media screen and (max-width: 768px) {
+          .footer .footer-in .footer-utility .footer-links {
+            float: none;
+            overflow: hidden; } }
+        .footer .footer-in .footer-utility .footer-links li {
+          float: left;
+          margin-right: 1em;
+          border-right: none;
+          padding-right: 1em; }
+          @media screen and (max-width: 768px) {
+            .footer .footer-in .footer-utility .footer-links li {
+              margin-bottom: 1em;
+              border-color: #999; } }
+          .footer .footer-in .footer-utility .footer-links li:last-child {
+            margin-right: 0;
+            border: none;
+            padding-right: 0; }
+          .footer .footer-in .footer-utility .footer-links li a {
+            color: #fff; }
+      .footer .footer-in .footer-utility .footer-bnr {
+        float: right;
+        width: 250px; }
+        @media screen and (max-width: 768px) {
+          .footer .footer-in .footer-utility .footer-bnr {
+            float: none;
+            margin-top: 1em; } }
+    .footer .footer-in .footer-copyright {
+      clear: left;
+      margin: 0 -50%;
+      background-color: #333;
+      font-size: 12px; }
+      @media screen and (max-width: 768px) {
+        .footer .footer-in .footer-copyright {
+          margin: 0 auto;
+          font-size: 10px; } }
+
+/* ==========================================================
+ Landing footer
+========================================================== */
+.landing-footer {
+  clear: both;
+  width: 100%;
+  padding: 30px 0;
+  height: 82px;
+  background-color: #434343;
+  font-size: 12px;
+  color: #ccc;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .landing-footer {
+    padding: 15px 0;
+    height: auto;
+  }
+}
+
+/* ==========================================================
+ add footer style
+========================================================== */
+.footer .footer-declaration {
+  font-size: 14px;
+  color: #999;
+  position: absolute;
+  left: 0;
+  bottom: 16px;
+}
+.footer .footer-declaration br {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .footer .footer-declaration br {
+    display: block;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer .footer-declaration {
+    font-size: 12px;
+    color: #999;
+    margin-top: 10px;
+    position: static;
+  }
+}
+.footer-copyright .footer-symbol {
+  margin: 0 auto;
+  text-align: left;
+  max-width: 1140px;
+  display: block;
+  padding: 1em 0;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .footer-copyright .footer-symbol{
+    max-width: none;
+    display: block;
+    padding: 1em;
+  }
+}
+
+/* ================================================
+20210331 サイト改修（フッター・トップ・東京カンテイとは）
+================================================ */
+@media all and (min-width: 768px) {
+  html, body {
+    scroll-padding-top: 70px;
+  }
+}
+.footer-navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+}
+
+@media all and (min-width: 768px) {
+  .footer-navigation {
+    display: table;
+    width: 100%;
+    padding-bottom: 80px;
+  }
+}
+
+.footer-navigation-unit {
+  width: 50%;
+}
+
+@media all and (min-width: 768px) {
+  .footer-navigation-unit {
+    display: table-cell;
+    vertical-align: top;
+    width: auto;
+    padding-right: 45px;
+  }
+}
+
+.footer-navigation-unit:nth-child(2n-1) {
+  padding-right: 7px;
+}
+
+@media all and (min-width: 768px) {
+  .footer-navigation-unit:nth-child(2n-1) {
+    padding: 0 45px 0 0;
+  }
+}
+
+.footer-navigation-unit:nth-child(2n) {
+  padding-left: 7px;
+}
+
+@media all and (min-width: 768px) {
+  .footer-navigation-unit:nth-child(2n) {
+    padding: 0 45px 0 0;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .footer-navigation-unit:nth-child(6n) {
+    padding-right: 10px;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .footer-navigation-unit:nth-child(4) {
+    width: 44%;
+  }
+}
+
+
+.footer-navigation-title {
+  border-bottom: none;
+}
+
+@media all and (min-width: 768px) {
+  .footer-navigation-title {
+    border-bottom: none;
+  }
+}
+
+.footer-navigation-unit:nth-child(1) .footer-navigation-title, .footer-navigation-unit:nth-child(2) .footer-navigation-title {
+  border-bottom: none;
+}
+
+@media all and (min-width: 768px) {
+  .footer-navigation-unit:nth-child(1) .footer-navigation-title, .footer-navigation-unit:nth-child(2) .footer-navigation-title {
+    border-top: none;
+  }
+}
+.footer-navigation-service-item-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-top: -1%;
+}
+.footer-navigation-service-item-col {
+  width: 50%;
+}
+.footer-navigation-service-item-col .footer-navigation-service-item:nth-of-type(n+2) {
+  margin-top: 25px;
+}
+.footer-navigation-link {
+  display: block;
+  padding: 5px 15px;
+  color: #000;
+  font-size: 1.3rem;
+  font-weight: bold;
+  -webkit-transition: all 0.25s cubic-bezier(0.02, 0.01, 0.47, 1);
+  transition: all 0.25s cubic-bezier(0.02, 0.01, 0.47, 1);
+}
+
+@media all and (min-width: 768px) {
+  .footer-navigation-link {
+    display: inline-block;
+    padding: 0;
+    margin-bottom: 12px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .footer-navigation-link.ico {
+    padding: 4px 15px 5px 45px;
+    position: relative;
+  }
+  .footer-navigation-link.ico:before {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    left: 15px;
+    top: 9px;
+    background-image: url(/common/img/twitter.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+  }
+}
+
+.footer-navigation-link:hover {
+  color: #cccccc;
+}
+
+.footer-navigation-link > span {
+  display: inline-block;
+  position: relative;
+  font-size: 16px;
+  color: #fff;
+  padding-right: 1em;
+}
+
+@media all and (max-width: 767px) {
+  .footer-navigation-link > span {
+    font-size: 14px;
+    padding-right: 0;
+  }
+}
+
+.footer-navigation-link > span.itemwrap {
+  padding-right: 0;
+}
+
+.footer-navigation-service-item h3 .footer-navigation-link span {
+  font-weight: normal;
+}
+
+.footer-navigation-unit .footer-linkgroups a[target="_blank"] {
+  position: relative;
+  padding-right: 2.2em;
+}
+.footer-navigation-unit .footer-linkgroups a[target="_blank"]:after {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  right: 0.8em;
+  top: 15%;
+  background-image: url(/common/img/ico_blank_23x23_02.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+}
+
+.footer-navigation-service-item .footer-linkgroups,
+.footer-navigation-unit .footer-linkgroups .item {
+  padding-left: 1em;
+}
+.footer-navigation-unit .footer-linkgroups .item {
+  color: #fff;
+}
+
+.footer-navigation-unit .ttl-sns {
+  display: inline-block;
+  position: relative;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+@media all and (max-width: 767px) {
+  .footer-navigation-pc-hidden.s-twitter {
+    margin: 3% auto 0;
+  }
+  .footer-navigation-pc-hidden.s-twitter img {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+.footer-navigation-unit .link-twitter {
+  padding-left: 2.2em;
+  position: relative;
+}
+
+.footer-navigation-unit .link-twitter:before {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  left: 0;
+  top: -10%;
+  background-image: url(/common/img/twitter.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+}
+
+.footer-navigation-link:hover span {
+  color: #cccccc;
+  text-decoration: underline;
+}
+
+.footer-navigation-link > span::before {
+  content: '';
+  position: absolute;
+  top: 56%;
+  right: -1.2em;
+  margin-top: -6px;
+  border-top: solid 2px #fff;
+  border-right: solid 2px #fff;
+  width: 6px;
+  height: 6px;
+  transform: rotate(45deg);
+  background-size: 12px 12px;
+}
+
+.footer-navigation-service-item h3 .footer-navigation-link span::before {
+  content: none;
+}
+
+.footer-navigation-link:hover span::before {
+  color: #cccccc;
+}
+
+@media all and (min-width: 768px) {
+  .footer-navigation-link > span::before {
+    top: 0.5em;
+    right: 0.1em;
+    left: auto;
+    margin-top: 0;
+  }
+}
+
+.footer-navigation-sp-hidden {
+  display: none;
+}
+
+@media all and (min-width: 768px) {
+  .footer-navigation-sp-hidden {
+    display: block;
+  }
+}
+
+.footer-navigation-row2,
+.footer-navigation-row3 {
+  margin-top: 25px;
+}
+
+.footer-navigation-unit .footer-navigation-sp-hidden:nth-of-type(n+2) {
+  margin-top: 25px;
+}
+
+.footer-navigation-pc-hidden {
+  display: block;
+}
+
+@media all and (min-width: 768px) {
+  .footer-navigation-pc-hidden {
+    display: none;
+  }
+}
+
+.footer-linkgroups {
+  display: none;
+}
+
+@media all and (min-width: 768px) {
+  .footer-linkgroups {
+    display: block;
+  }
+}
+
+.footer-linkgroups-item {
+  margin-bottom: 0.5em;
+}
+
+.footer-linkgroups-item:last-child {
+  margin-bottom: 0;
+}
+
+.footer-linkgroups-link {
+  display: inline-block;
+  vertical-align: top;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.footer-linkgroups-link.s-pl {
+  padding-left: 1em;
+}
+
+.footer-linkgroups-link:hover {
+  color: #cccccc;
+  text-decoration: underline;
+}
+
+.footer-infomation::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+@media all and (min-width: 768px) {
+  .footer-infomation {
+    padding: 25px 0;
+    margin-top: -20px;
+  }
+}
+
+.footer-infomation-item {
+  border-bottom: 1px solid #ebebeb;
+}
+
+@media all and (min-width: 768px) {
+  .footer-infomation-item {
+    float: left;
+    margin: 20px 40px 0 0;
+    border: none;
+  }
+}
+
+.footer-infomation-item:first-child {
+  border-top: 1px solid #ebebeb;
+}
+
+@media all and (min-width: 768px) {
+  .footer-infomation-item:first-child {
+    border: none;
+  }
+}
+
+.footer-infomation-link {
+  display: block;
+  padding: 20px 15px;
+  color: #000;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1.75;
+}
+
+@media all and (min-width: 768px) {
+  .footer-infomation-link {
+    display: inline-block;
+    padding: 0;
+  }
+}
+
+.footer-infomation-link > span {
+  position: relative;
+  display: block;
+  padding-left: 36px;
+}
+
+.footer-infomation-link > span::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+
+@media all and (min-width: 768px) {
+  .footer-infomation-link .separate {
+    display: none;
+  }
+}
+
+/* ================================================
+20211112 サイト改修（ISOバナー調整）
+================================================ */
+.s-211112 .footer-bnr {
+  width: 360px !important;
+}

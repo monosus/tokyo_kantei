@@ -1,0 +1,76 @@
+﻿@charset "UTF-8";
+/* ==========================================================
+ html5 elements
+========================================================== */
+@media screen and (max-width:1270px) {
+
+      .hako4{
+          margin-left:30px !important;
+      }
+}
+
+@media screen and (max-width:700px) {
+
+      .top-btn {
+          width: 48%;
+      }
+      .top-btn_text {
+          margin-top: 20px;
+      }
+      .top-btn2 {
+          width: 48%;
+      }
+      .top-btn2 a {
+          height: 32px;
+      }
+      .mt＋5 {
+          margin-top: 5px;
+      }
+      .osrs_box{
+          padding-right: 6%;
+      }
+      .osrs{
+          display: block;
+      }
+      .osrs_body{
+          padding:1.2em 15px;
+      }
+      .osrs_head{
+          flex-shrink:0;
+          padding:1em 10px;
+          position:relative;
+          line-height:1.4;
+          max-width: none;
+          margin: -1px;
+      }
+      .osrs_title{
+          position:relative;
+          margin:0;
+          line-height:1.4
+      }
+      .pl24{
+          padding-left:-24px;
+      }
+      .osrs2{
+          display: block;
+      }
+      .osrs_head2{
+          flex-shrink:0;
+          padding:1em 10px;
+          position:relative;
+          line-height:1.4;
+      }
+      .top-inner-block2 {
+          padding-right: 17px;
+}
+      .rpt1{
+          margin-top:1px !important;
+      }
+      .rpl1{
+          margin-left:1px !important;
+      }
+      .mt100{
+          margin-top:50px !important;
+      }
+}
+

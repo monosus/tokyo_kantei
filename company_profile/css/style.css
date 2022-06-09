@@ -1,0 +1,192 @@
+@charset "UTF-8";
+/* 会社案内トップ
+---------------------------------------------------------- */
+ul.grid-category > li:nth-child(1) a:after {
+  background-image: url("/company_profile/img/pic_company_01.jpg"); }
+
+ul.grid-category > li:nth-child(2) a:after {
+  background-image: url("/company_profile/img/pic_company_02.jpg"); }
+
+ul.grid-category > li:nth-child(3) a:after {
+  background-image: url("/company_profile/img/pic_company_03.jpg"); }
+
+ul.grid-category > li a  {
+	position: relative; }
+
+ul.grid-category > li a:after  {
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 0;
+	background-size: cover;
+	background-position: center center;
+	-webkit-transition: all 0.4s ease;
+	-ms-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-font-smoothing: antialiased; }
+
+/* ご挨拶
+---------------------------------------------------------- */
+div.txt-wrap.greetings p {
+	margin-bottom: 1em; }
+div.box-signature {
+  text-align: right;
+  color: #333; }
+  div.box-signature p {
+    font-weight: bold; }
+    div.box-signature p.ttl-signature {
+      margin-top: 2em;
+      font-size: 20px; }
+      @media screen and (max-width: 768px) {
+        div.box-signature p.ttl-signature {
+          font-size: 16px; } }
+    div.box-signature p.position-signature {
+      font-size: 16px; }
+      @media screen and (max-width: 768px) {
+        div.box-signature p.position-signature {
+          font-size: 14px; } }
+    div.box-signature p.name-signature {
+      margin: 0.2em 0 0 auto;
+      width: 223px;
+      height: 77px;
+      background: url("/company_profile/greetings/img/signature_greetings_02.png") no-repeat right top;
+      background-size: contain; }
+      @media screen and (max-width: 768px) {
+        div.box-signature p.name-signature {
+          width: 150px;
+          height: 52px; } }
+      div.box-signature p.name-signature span {
+        display: none; }
+div.txt-wrap.greetings, div.box-signature {
+	margin: 0 auto;
+	width: 700px; }
+@media screen and (max-width: 768px) {
+div.txt-wrap.greetings, div.box-signature {
+	width: auto; } }
+
+/* 会社概要・沿革
+---------------------------------------------------------- */
+table.table-history {
+  table-layout: fixed; }
+  @media screen and (max-width: 768px) {
+    table.table-history {
+      display: block;
+      width: 100%; } }
+  @media screen and (max-width: 768px) {
+    table.table-history tbody tr {
+      display: block; } }
+  table.table-history tbody tr th,
+  table.table-history tbody tr td {
+    vertical-align: top; }
+    @media screen and (max-width: 768px) {
+      table.table-history tbody tr th,
+      table.table-history tbody tr td {
+        display: block;
+        vertical-align: baseline; } }
+  table.table-history tbody tr:first-child th,
+  table.table-history tbody tr:first-child td {
+    padding-top: 0; }
+  table.table-history tbody tr:last-child th,
+  table.table-history tbody tr:last-child td {
+    padding-bottom: 0; }
+    @media screen and (max-width: 768px) {
+      table.table-history tbody tr:last-child th,
+      table.table-history tbody tr:last-child td {
+        margin-bottom: 0; } }
+  table.table-history tbody tr th {
+    padding: .25em 0;
+    font-weight: bold; }
+    @media screen and (max-width: 768px) {
+      table.table-history tbody tr th {
+        float: left;
+        padding: 0; } }
+    table.table-history tbody tr th:first-child {
+      padding-left: 0;
+      width: 4em; }
+      @media screen and (max-width: 768px) {
+        table.table-history tbody tr th:first-child {
+          margin-right: 1em;
+          width: auto; } }
+    table.table-history tbody tr th:nth-child(2) {
+      width: 2.5em;
+      text-align: right; }
+      @media screen and (max-width: 768px) {
+        table.table-history tbody tr th:nth-child(2) {
+          width: auto; } }
+  table.table-history tbody tr td {
+    padding: .25em 1em .25em 2em; }
+    @media screen and (max-width: 768px) {
+      table.table-history tbody tr td {
+        clear: left;
+        margin-bottom: 1em;
+        padding: 0; } }
+
+/* アクセスマップ
+---------------------------------------------------------- */
+figure.fig-access {
+  float: left;
+  margin: 0 30px 30px 0; }
+  @media screen and (max-width: 768px) {
+    figure.fig-access {
+      margin: 0 15px 15px 0;
+      width: 135px; } }
+
+div.box-access {
+  overflow: hidden;
+  margin-bottom: 30px; }
+  @media screen and (max-width: 768px) {
+    div.box-access {
+      margin-bottom: 15px;
+      font-size: 13px; } }
+  div.box-access .ttl-access {
+    margin-top: 1em;
+    font-weight: bold; }
+  div.box-access dl.list-access {
+    overflow: hidden; }
+    div.box-access dl.list-access + dl.list-access {
+      margin-top: 1em; }
+    div.box-access dl.list-access dt {
+      float: left;
+      margin-right: .5em;
+      font-weight: bold; }
+      @media screen and (max-width: 768px) {
+        div.box-access dl.list-access dt {
+          clear: left; } }
+      div.box-access dl.list-access dt::after {
+        content: ':'; }
+    div.box-access dl.list-access dd {
+      float: left;
+      margin-right: .5em; }
+
+div.map-access {
+  clear: both; }
+  @media screen and (max-width: 768px) {
+    div.map-access {
+      position: relative;
+      padding-bottom: 39.13%;
+      height: 0; }
+      div.map-access iframe,
+      div.map-access object,
+      div.map-access embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%; } }
+
+p.link-access {
+  font-weight: bold;
+  text-align: right; }
+  @media screen and (max-width: 768px) {
+    p.link-access {
+      margin-top: 1em;
+      font-size: 13px; } }
+
+/*# sourceMappingURL=style.css.map */

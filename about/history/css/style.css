@@ -1,0 +1,289 @@
+.btn-cmn-pagetop {
+  z-index: 100; }
+
+.sec-history {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 90px; }
+  @media screen and (max-width: 768px) {
+    .sec-history {
+      margin-bottom: 40px; } }
+  .sec-history:last-child {
+    margin-bottom: 0; }
+  .sec-history.first {
+    margin-bottom: -150px; }
+    .sec-history.first .box-background {
+      width: 980px;
+      height: 700px;
+      -webkit-transform: translateY(-100px) scale(0.9, 0.9);
+      transform: translateY(-100px) scale(0.9, 0.9);
+      background-image: url("/about/history/img/bg_about_dna_01.png");
+      -webkit-transition: 1s;
+      transition: 1s; }
+      @media screen and (max-width: 768px) {
+        .sec-history.first .box-background {
+          width: 100%;
+          height: 400px; } }
+      .sec-history.first .box-background.is-displayed {
+        -webkit-transform: translateY(-150px) scale(1, 1);
+        transform: translateY(-150px) scale(1, 1);
+        -webkit-transition: 2s;
+        transition: 2s; }
+  .sec-history.second {
+    overflow: hidden;
+    margin-bottom: -50px; }
+    @media screen and (max-width: 768px) {
+      .sec-history.second {
+        margin-bottom: 40px; } }
+    .sec-history.second .box-background {
+      float: right;
+      width: 490px;
+      height: 300px;
+      -webkit-transform: translateY(-50px) scale(0.9, 0.9);
+      transform: translateY(-50px) scale(0.9, 0.9);
+      background-image: url("/about/history/img/img_about_dna_01.png");
+      -webkit-transition: 1s;
+      transition: 1s; }
+      @media screen and (max-width: 768px) {
+        .sec-history.second .box-background {
+          float: none;
+          width: 100%;
+          height: 200px;
+          margin-top: 40px;
+          background-size: cover;
+          -webkit-transform: translateY(0) scale(0.9, 0.9);
+          transform: translateY(0) scale(0.9, 0.9); } }
+      .sec-history.second .box-background.is-displayed {
+        -webkit-transform: translateY(-100px) scale(1, 1);
+        transform: translateY(-100px) scale(1, 1);
+        -webkit-transition: 2s;
+        transition: 2s; }
+        @media screen and (max-width: 768px) {
+          .sec-history.second .box-background.is-displayed {
+            -webkit-transform: translateY(0) scale(1, 1);
+            transform: translateY(0) scale(1, 1); } }
+  .sec-history.third {
+    margin-bottom: 500px; }
+    @media screen and (max-width: 768px) {
+      .sec-history.third {
+        margin-bottom: 250px; } }
+    .sec-history.third .txt-history-02 {
+      width: 580px;
+      margin: 0 auto; }
+    @media screen and (max-width: 768px) {
+      .sec-history.third .txt-history-02 {
+        width: 100%; } }
+    .sec-history.third .box-background {
+      position: absolute;
+      top: 100%;
+      width: 490px;
+      height: 300px;
+      -webkit-transition: 1s;
+      transition: 1s; }
+      .sec-history.third .box-background.item01 {
+        left: 100%;
+        z-index: 10;
+        -webkit-transform: translate(-90%, 30px) scale(0.9, 0.9);
+        transform: translate(-90%, 30px) scale(0.9, 0.9);
+        background-image: url("/about/history/img/img_about_dna_02.png"); }
+        @media screen and (max-width: 768px) {
+          .sec-history.third .box-background.item01 {
+            width: 55%;
+            left: 100%;
+            height: 120px;
+            margin-top: 30px;
+            background-size: cover;
+            -webkit-transform: translate(-100%, 30px) scale(0.9, 0.9);
+            transform: translate(-100%, 30px) scale(0.9, 0.9); } }
+        .sec-history.third .box-background.item01.is-displayed {
+          -webkit-transform: translate(-100%, 0) scale(1, 1);
+          transform: translate(-100%, 0) scale(1, 1);
+          -webkit-transition: 2s;
+          transition: 2s; }
+      .sec-history.third .box-background.item02 {
+        left: 60px;
+        z-index: 1;
+        margin-top: 90px;
+        -webkit-transition-delay: 1s;
+        transition-delay: 1s;
+        -webkit-transform: translateX(-50px) scale(0.9, 0.9);
+        transform: translateX(-50px) scale(0.9, 0.9);
+        background-image: url("/about/history/img/img_about_dna_03.png"); }
+        @media screen and (max-width: 768px) {
+          .sec-history.third .box-background.item02 {
+            width: 55%;
+            left: 0;
+            height: 120px;
+            margin-top: 60px;
+            background-size: cover;
+            -webkit-transform: translateY(0) scale(0.9, 0.9);
+            transform: translateY(0) scale(0.9, 0.9); } }
+        .sec-history.third .box-background.item02.is-displayed {
+          -webkit-transition-delay: 1s;
+          transition-delay: 1s;
+          -webkit-transform: translateX(0px) scale(1, 1);
+          transform: translateX(0px) scale(1, 1);
+          -webkit-transition: 2s;
+          transition: 2s; }
+  .sec-history.forth {
+    margin-bottom: 600px; }
+    @media screen and (max-width: 768px) {
+      .sec-history.forth {
+        margin-bottom: 230px; } }
+    .sec-history.forth .txt-history-02 {
+      padding-left: 40%;
+      margin-right: -150px; }
+    @media screen and (max-width: 768px) {
+      .sec-history.forth .txt-history-02 {
+        padding-left: 0;
+        margin-right: 0; } }
+    .sec-history.forth .box-background {
+      position: absolute;
+      top: 100%;
+      width: 490px;
+      height: 300px;
+      -webkit-transition: 1s;
+      transition: 1s; }
+      @media screen and (max-width: 768px) {
+        .sec-history.forth .box-background {
+          top: 95%; } }
+      .sec-history.forth .box-background.item01 {
+        left: 60px;
+        z-index: -1;
+        -webkit-transform: translate(50px, -50px) scale(0.9, 0.9);
+        transform: translate(50px, -50px) scale(0.9, 0.9);
+        background-image: url("/about/history/img/img_about_dna_04.png"); }
+        @media screen and (max-width: 768px) {
+          .sec-history.forth .box-background.item01 {
+            width: 55%;
+            left: 0;
+            height: 120px;
+            margin-top: 60px;
+            background-size: cover;
+            -webkit-transform: translate(50px, -50px) scale(0.9, 0.9);
+            transform: translate(50px, -50px) scale(0.9, 0.9); } }
+        .sec-history.forth .box-background.item01.is-displayed {
+          -webkit-transform: translate(0, 0) scale(1, 1);
+          transform: translate(0, 0) scale(1, 1);
+          -webkit-transition: 2s;
+          transition: 2s; }
+      .sec-history.forth .box-background.item02 {
+        left: 50%;
+        z-index: 10;
+        margin-top: 200px;
+        -webkit-transition-delay: 1s;
+        transition-delay: 1s;
+        -webkit-transform: translateX(-50px) scale(0.9, 0.9);
+        transform: translateX(-50px) scale(0.9, 0.9);
+        background-image: url("/about/history/img/img_about_dna_05.png"); }
+        @media screen and (max-width: 768px) {
+          .sec-history.forth .box-background.item02 {
+            width: 55%;
+            left: 45%;
+            height: 120px;
+            margin-top: 100px;
+            background-size: cover;
+            -webkit-transform: translate(-50px, -50px) scale(0.9, 0.9);
+            transform: translate(-50px, -50px) scale(0.9, 0.9); } }
+        .sec-history.forth .box-background.item02.is-displayed {
+          -webkit-transition-delay: 1s;
+          transition-delay: 1s;
+          -webkit-transform: translate(0, 0) scale(1, 1);
+          transform: translate(0, 0) scale(1, 1);
+          -webkit-transition: 2s;
+          transition: 2s; }
+  .sec-history.fifth {
+    margin-bottom: -250px; }
+    @media screen and (max-width: 768px) {
+      .sec-history.fifth {
+        margin-bottom: -100px; } }
+    .sec-history.fifth .box-background {
+      width: 980px;
+      height: 1003px;
+      -webkit-transform: translateY(-150px);
+      transform: translateY(-150px);
+      background-image: url("/about/history/img/bg_about_dna_02.png");
+      transition: 1s;
+      -webkit-filter: grayscale(100%);
+      filter: gray;
+      backface-visibility: hidden; }
+      @media screen and (max-width: 768px) {
+        .sec-history.fifth .box-background {
+          width: 100%;
+          height: 500px;
+          -webkit-transform: translateY(0);
+          transform: translateY(0);
+          background-size: cover;
+          background-position: center bottom; } }
+      .sec-history.fifth .box-background.is-displayed {
+        -webkit-transform: translateY(-250px);
+        transform: translateY(-250px);
+        transition: 2s;
+        -webkit-filter: grayscale(0);
+        filter: none;
+        backface-visibility: hidden; }
+        @media screen and (max-width: 768px) {
+          .sec-history.fifth .box-background.is-displayed {
+            -webkit-transform: translateY(-100px);
+            transform: translateY(-100px); } }
+
+.box-background {
+  position: relative;
+  z-index: -1;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom; }
+
+.txt-history-lead {
+  line-height: 54px;
+  text-align: center;
+  font-size: 34px;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  margin: 100px 0; }
+  @media screen and (max-width: 768px) {
+    .txt-history-lead {
+      font-size: 20px;
+      letter-spacing: 0.03em;
+      line-height: 40px;
+      margin: 40px 0; } }
+
+.txt-history, .txt-history-01, .txt-history-02 {
+  font-size: 18px;
+  line-height: 58px;
+  letter-spacing: 0.05em; }
+  .txt-history br.break-pc, .txt-history-01 br.break-pc, .txt-history-02 br.break-pc {
+    display: block; }
+    @media screen and (max-width: 768px) {
+      .txt-history br.break-pc, .txt-history-01 br.break-pc, .txt-history-02 br.break-pc {
+        display: none; } }
+  .txt-history br.break-sp, .txt-history-01 br.break-sp, .txt-history-02 br.break-sp {
+    display: none; }
+    @media screen and (max-width: 768px) {
+      .txt-history br.break-sp, .txt-history-01 br.break-sp, .txt-history-02 br.break-sp {
+        display: block; } }
+  @media screen and (max-width: 768px) {
+    .txt-history, .txt-history-01, .txt-history-02 {
+      font-size: 13px;
+      line-height: 35px; } }
+  .txt-history-01 {
+    text-align: center; }
+    @media screen and (max-width: 768px) {
+      .txt-history-01 {
+        margin: 0 -10px;
+        letter-spacing: 0; } }
+  .txt-history-02 {
+    text-align: left; }
+    @media screen and (max-width: 768px) {
+      .txt-history-02 {
+        letter-spacing: 0; } }
+
+.js-display {
+  opacity: 0;
+  transition: 2s; }
+
+.is-displayed {
+  opacity: 1;
+  transition: 2s; }
+
+/*# sourceMappingURL=style.css.map */

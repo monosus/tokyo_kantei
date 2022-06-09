@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS INFORMATION ----------------------------------------
+FileName: font.css
+Description: フォント周り
+Editor: Takeuji
+Created: 2011/03/16
+Updated: 2014/10/20
+----------------------------------------------------------*/
+body{
+ font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif 
+}
+
+.txtRed {
+	color:red;
+}
+.txtBlue {
+	color:blue;
+}
+.txtBold {
+	font-weight:bold;
+}
+.error {
+	width:97% !important;
+	float:none !important;
+	text-align:left !important;
+	color:red;
+	font-size:90%;
+}
+/*強調*/
+#settings .emphasis {
+	background:#FFF;
+	color: #006699;
+	font-weight:bold;
+	padding:0 10px;
+}
+.emphasis {
+	background:none;
+	color: #555;
+	font-weight:bold;
+	padding:0 10px;
+	margin-bottom:3px;
+}
+.kome {
+	color:#999999;
+}
+.komejirushi {
+	display:inline-block;
+	color:#f00;
+}
+/* error */
+.error_list {
+	padding:0;
+	color:red;
+	font-size:10px;
+}
+.error_list li {
+	margin:0 5px 1px 0;
+	border:1px solid #ff0000;
+	background:#fff;
+	float:left;
+	list-style:none;
+}
+.structure dl dd select {
+	overflow:hidden;
+}
+/* ベース(青リンク) */
+a {/*リンクされた文字*/
+	color:#0066cc;
+	text-decoration:none;
+}
+a:hover {/*マウスをのせたとき*/
+	color:#0066cc;
+}
+.limit_help {
+	display:block
+}
+input[type="submit"] {
+	-webkit-appearance: none;
+}

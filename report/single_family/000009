@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>一戸建て価格推移 | 市況レポート | 東京カンテイ</title>
+
+<meta name="description" content="東京カンテイの市況レポート 一戸建て価格推移ページです。東京カンテイは不動産専門のデータ会社として全国のマンションの図面や価格情報、土地・戸建の売買事例をWEB会員に配信しています。また不動産の専門家として、不動産鑑定評価、土壌汚染調査、建物診断などの調査業務も行っております。">
+<meta name="keywords" content="東京カンテイ,不動産データ,マンション価格,市況レポート,一戸建て価格推移">
+
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,user-scalable=yes">
+<meta name="format-detection" content="telephone=no">
+<link rel="stylesheet" href="/common/css/base.css" media="all">
+<link rel="stylesheet" href="/common/css/header.css" media="all">
+<link rel="stylesheet" href="/common/css/footer.css" media="all">
+<link rel="stylesheet" href="/common/css/layout.css" media="all">
+<link rel="stylesheet" href="/common/css/module.css" media="all">
+<link rel="stylesheet" href="/common/css/print.css" media="print">
+<script src="/common/js/jquery.js"></script>
+<script src="/common/js/common.js"></script>
+<script src="/common/js/jquery.matchHeight.js"></script>
+<!--[if lt IE 9]><script src="/common/js/html5shiv.min.js"></script><![endif]-->
+<!--[if lt IE 9]>
+<script src="/common/js/html5shiv.min.js"></script><![endif]-->
+<script>
+window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);t._e=[];t.ready=function(f){t._e.push(f);};return t;}(document,"script","twitter-wjs"));
+</script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.0";
+fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+</head>
+
+<body id="gn03" class="ln05 l10">
+
+<div class="wrapper">
+<header class="header" id="header">
+  <h1 class="header-logo"><a href="/"><span>東京カンテイ</span></a></h1>
+  <button class="btn-sp-menu"><span></span><span></span><span></span></button>
+  <div class="header-in">
+    <div class="header-in-in">
+      <div class="header-utility">
+        <ul class="header-links">
+          <li class="admission"><a href="/service/member/index.html"><span>入会方法はこちら</span></a></li>
+          <li class="login"><a href="http://www.tokyokantei.com/" target="_blank"><span>会員サービスログイン</span></a></li>
+        </ul>
+        <div class="header-search">
+          <form action="#dummy" method="post">
+            <label for="label-search-input" class="form-area-label"><input type="search" value="" class="form-area-text" id="label-search-input"></label>
+            <label for="label-search-button" class="form-area-label"><input type="submit" value="検索" class="form-area-button" id="label-search-button"></label>
+          </form>
+        </div><!-- /header-search -->
+      </div><!-- /header-utility -->
+      <nav class="nav-global">
+        <ul>
+          <li class="nav01">
+            <a href="/about/index.html">東京カンテイとは</a>
+            <button><span>開閉</span></button>
+            <div class="nav-in">
+              <div class="nav-in-in">
+                <nav class="nav-category is-column2">
+                  <ul>
+                    <li>
+                      <a href="/about/philosophy/index.html">
+                        <p class="image"><img src="/common/img/megamenu_01_pic01.jpg" alt="東京カンテイが選ばれる理由"></p>
+                        <p class="text">東京カンテイが選ばれる理由</p>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/about/history/index.html">
+                        <p class="image"><img src="/common/img/megamenu_01_pic02.jpg" alt="東京カンテイのDNA"></p>
+                        <p class="text">東京カンテイのDNA</p>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div><!-- /nav-in-in -->
+            </div><!-- /nav-in -->
+          </li>
+          <li class="nav02">
+            <a href="/service/index.html">サービス案内</a>
+            <button><span>開閉</span></button>
+            <div class="nav-in">
+              <div class="nav-in-in">
+                <nav class="nav-category is-column3">
+                  <ul>
+                    <li>
+                      <a href="/service/estate/index.html">
+                        <p class="image"><img src="/common/img/megamenu_02_pic01.jpg" alt="不動産業務支援"></p>
+                        <p class="text">不動産業務支援</p>
+                      </a>
+                      <button><span>開閉</span></button>
+                      <div>
+                        <div>
+                          <ul>
+                            <li><a href="/service/estate/catalog_copy/index.html"><span>カタログコピーサービス</span></a></li>
+                            <li><a href="/service/estate/apartment_history/index.html"><span>マンション履歴情報サービス</span></a></li>
+                            <li><a href="/service/estate/navi_map/index.html"><span>データナビマップ</span></a></li>
+                            <li><a href="/service/estate/assessment/index.html"><span>不動産査定システム</span></a></li>
+                            <li><a href="/service/estate/market_analysis/index.html"><span>市況分析ツール</span></a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <a href="/service/finance/index.html">
+                        <p class="image"><img src="/common/img/megamenu_02_pic02.jpg" alt="金融機関支援"></p>
+                        <p class="text">金融機関支援</p>
+                      </a>
+                      <button><span>開閉</span></button>
+                      <div>
+                        <div>
+                          <ul>
+                            <li><a href="/service/finance/evaluation/index.html"><span>不動産評価システム</span></a></li>
+                            <li><a href="/service/finance/revaluation/index.html"><span>評価替え機能</span></a></li>
+                            <li><a href="/service/finance/data/index.html"><span>不動産データサービス</span></a></li>
+                            <li><a href="/service/finance/profit_rent/index.html"><span>収益評価システム/賃料予測システム</span></a></li>
+                            <li><a href="/service/finance/outsourcing/index.html"><span>評価外注化サービス</span></a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <a href="/service/asset/index.html">
+                        <p class="image"><img src="/common/img/megamenu_02_pic03.jpg" alt="アセットマネジメント支援"></p>
+                        <p class="text">アセットマネジメント支援</p>
+                      </a>
+                      <button><span>開閉</span></button>
+                      <div>
+                        <div>
+                          <ul>
+                            <li><a href="/service/asset/appraisal/index.html"><span>不動産鑑定評価</span></a></li>
+                            <li><a href="/service/asset/past_map/index.html"><span>過去住宅地図</span></a></li>
+                            <li><a href="/service/asset/soil_risk/index.html"><span>土壌汚染リスク診断</span></a></li>
+                            <li><a href="/service/asset/soil_investigation/index.html"><span>土壌汚染調査</span></a></li>
+                            <li><a href="/service/asset/soil_countermeasure/index.html"><span>土壌汚染対策工事</span></a></li>
+                            <li><a href="/service/asset/building_survey_diagnosis/index.html"><span>建物調査・診断</span></a></li>
+                            <li><a href="/service/asset/service_life/index.html"><span>耐用年数調査</span></a></li>
+                            <li><a href="/service/asset/estate_survey/index.html"><span>不動産調査（現地調査・役所調査）</span></a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </nav>
+              </div><!-- /nav-in-in -->
+            </div><!-- /nav-in -->
+          </li>
+          <li class="nav03">
+            <a href="/report/index.html">市況レポート</a>
+          </li>
+          <li class="nav04">
+            <a href="/company_profile/index.html">会社案内</a>
+            <button><span>開閉</span></button>
+            <div class="nav-in">
+              <div class="nav-in-in">
+                <nav class="nav-category is-column3">
+                  <ul>
+                    <li>
+                      <a href="/company_profile/greetings/index.html">
+                        <p class="image"><img src="/common/img/megamenu_04_pic01.jpg" alt="ご挨拶"></p>
+                        <p class="text">ご挨拶</p>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/company_profile/outline_history/index.html">
+                        <p class="image"><img src="/common/img/megamenu_04_pic02.jpg" alt="会社概要・沿革"></p>
+                        <p class="text">会社概要・沿革</p>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/company_profile/access/index.html">
+                        <p class="image"><img src="/common/img/megamenu_04_pic03.jpg" alt="アクセスマップ"></p>
+                        <p class="text">アクセスマップ</p>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div><!-- /nav-in-in -->
+            </div><!-- /nav-in -->
+          </li>
+          <li class="nav05">
+            <a href="/contact/index.html">お問合せ</a>
+            <button><span>開閉</span></button>
+            <div class="nav-in">
+              <div class="nav-in-in">
+                <nav class="nav-category is-column4">
+                  <ul>
+                    <li>
+                      <a href="/contact/member/index.html">
+                        <p class="image"><img src="/common/img/megamenu_05_pic01.png" alt="会員制サービスについてのお問合せ"></p>
+                        <p class="text">会員制サービス<br class="only-pc">についてのお問合せ</p>
+                      </a>
+                      <div class="tel">
+                        <p>03-5719-3011</p>
+                      </div>
+                    </li>
+                    <li>
+                      <a href="/contact/asset_service/index.html">
+                        <p class="image"><img src="/common/img/megamenu_05_pic02.png" alt="アセット関連サービスについてのお問合せ"></p>
+                        <p class="text">アセット関連サービス<br class="only-pc">についてのお問合せ</p>
+                      </a>
+                      <div class="tel">
+                        <p>鑑定評価: 03-5719-1202</p>
+                        <p>土壌汚染調査: 03-5719-3356</p>
+                        <p>デューデリジェンス: 03-5719-6641</p>
+                      </div>
+                    </li>
+                    <li>
+                      <a href="/contact/report/index.html">
+                        <p class="image"><img src="/common/img/megamenu_05_pic03.png" alt="市況レポートについてのお問合せ"></p>
+                        <p class="text">市況レポート<br class="only-pc">についてのお問合せ</p>
+                      </a>
+                      <div class="tel">
+                        <p>03-3442-0113</p>
+                      </div>
+                    </li>
+                    <li>
+                      <a href="/contact/recruit/index.html">
+                        <p class="image"><img src="/common/img/megamenu_05_pic04.png" alt="採用情報についてのお問合せ"></p>
+                        <p class="text">採用情報<br class="only-pc">についてのお問合せ</p>
+                      </a>
+                      <div class="tel">
+                        <p>03-3442-0111</p>
+                      </div>
+                    </li>
+                  </ul>
+                  <div class="box-contact">
+                    <p class="text">当社の営業時間は月曜日～金曜日９：００～１７：３０となります。土、日、祝日、年末年始定休となります。予めご了承ください。</p>
+                  </div><!-- /box-contact -->
+                </nav>
+              </div><!-- /nav-in-in -->
+            </div><!-- /nav-in -->
+          </li>
+        </ul>
+        <button class="btn-sp-close"><span>閉じる</span></button>
+      </nav><!-- /nav-global -->
+    </div><!-- /header-in-in -->
+  </div><!-- /header-in -->
+  
+</header>
+<div class="container">
+<div class="contents">
+<div class="area-title s-report">
+<div class="area-title-in">
+<h2 class="title">
+<span class="en">REPORT</span>
+<span class="jp">市況レポート</span>
+</h2>
+</div><!-- /area-hero-in -->
+</div><!-- /area-hero -->
+<div class="contents-sub">
+<nav class="nav-local type2">
+<div class="category"><p>カテゴリ別</p></div>
+<ul>
+<li class="title"><span>カテゴリ別</span></li>
+
+
+
+
+
+
+<li class="nav01"><a href="/report/kantei_eye/index.html">カンテイアイ特集</a></li>
+
+
+
+
+
+
+
+
+
+<li class="nav02"><a href="/report/70m2/index.html">70m<sup>2</sup>換算価格推移</a></li>
+
+
+
+
+
+
+
+
+
+<li class="nav03"><a href="/report/price_weather_map/index.html">価格天気図</a></li>
+
+
+
+
+
+
+
+
+
+<li class="nav04"><a href="/report/rent/index.html">賃料月別推移</a></li>
+
+
+
+
+
+
+
+
+
+<li class="nav05"><a href="/report/single_family/index.html">一戸建て価格推移</a></li>
+
+
+
+
+
+
+
+
+
+<li class="nav06"><a href="/report/wayside_station/index.html">沿線別・駅別価格</a></li>
+
+
+
+
+
+
+
+
+
+
+</ul>
+</nav>
+<nav class="nav-local type2">
+<div class="category"><p>年別</p></div>
+<ul>
+<li class="title"><span>年別</span></li>
+
+<li class="nav08"><a href="https://www.kantei.ne.jp/report/2017/">2017年</a></li>
+
+<li class="nav08"><a href="https://www.kantei.ne.jp/report/2016/">2016年</a></li>
+
+</ul>
+</nav><!-- /nav-global -->
+</div><!-- /contents-sub -->
+<div class="contents-main lower">
+<article class="contents-main-in">
+<nav class="nav-breadcrumb">
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="/report/">市況レポート</a></li>
+<li class="current">一戸建て価格推移</li>
+</ul>
+</nav>
+<section class="ttl-reportdetail">
+<p class="data">2016年10月 2日</p>
+<h3 class="title">テスト07</h3>
+</section><!-- /sec-cmn -->
+<section class="sec-report">
+<div class="btn-report-wrap top">
+<div class="fb-like btn-fb" data-href="" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
+<a class="twitter-share-button btn-tw" href="" data-dnt="true">Tweet</a>
+<a class="btn-print" href="#" onclick="print();">印刷</a>
+</div><!-- /btn-report-wrap -->
+<div class="box-report">
+<p>テキストテキストテキストテキスト07</p>
+</div><!-- /box-report -->
+<div class="btn-report-wrap bottom">
+<div class="fb-like btn-fb" data-href="" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
+<a class="twitter-share-button btn-tw" href="" data-dnt="true">Tweet</a>
+<a class="btn-print" href="#" onclick="print();">印刷</a>
+</div><!-- /btn-report-wrap -->
+<div class="txt-report-notes">
+<p class="txt">このデータを無断で転載、利用することを禁じます</p>
+</div>
+<!-- /.txt-notes -->
+</section><!-- /sec-cmn -->
+</article><!-- /contents-main-in -->
+</div><!-- /contents-main -->
+</div><!-- /contents -->
+</div><!-- /container -->
+<div class="area-contact">
+<div class="area-contact-in">
+<p class="txt-contact-lead">
+<span class="msg01">こちらのサービスにご興味をお持ちの方は、</span>
+<span class="msg02">市況レポートについてご質問、ご意見がございましたら、</span>
+<span>お気軽にお問い合わせ下さい。</span>
+</p><!-- /txt-contact-lead -->
+<div class="mod-contact">
+<div class="col phone">
+<p class="tel l01"><span><a href="tel:0357193011">03-5719-3011</a></span></p>
+<p class="tel l03_01"><span><a href="tel:0357191202">03-5719-1202</a></span></p>
+<p class="tel l03_02"><span><a href="tel:0357193356">03-5719-3356</a></span></p>
+<p class="tel l03_03"><span><a href="tel:0357196641">03-5719-6641</a></span></p>
+<p class="tel l10"><span><a href="tel:0334420113">03-3442-0113</a></span></p>
+<dl>
+<dt>営業時間：</dt>
+<dd><span class="time">月～金 9:00～18:00</span><span class="note">※土、日、祝日、年末年始定休となります。</span></dd>
+</dl>
+</div>
+<div class="col link">
+<p class="l01"><a href="/contact/member/index.html"><span>お問合せフォーム</span></a></p>
+<p class="l03"><a href="/contact/asset_service/index.html"><span>お問合せフォーム</span></a></p>
+<p class="l10"><a href="/contact/report/index.html"><span>お問合せフォーム</span></a></p>
+</div>
+</div><!-- /grid-contact -->
+</div><!-- /area-contact-in -->
+</div><!-- /area-contact -->
+
+<div class="area-contact asset">
+<div class="area-contact-in">
+<p class="txt-contact-lead">
+<span>こちらのサービスにご興味をお持ちの方は、</span>
+<span>お気軽にお問い合わせ下さい。</span>
+</p><!-- /txt-contact-lead -->
+<div class="mod-contact is-type-01">
+<div class="contact-wrap">
+<div class="col phone">
+<div class="item-wrap">
+<div class="item">
+<p class="company"><span>鑑定評価</span></p>
+<p class="telsmall"><span><a href="tel:0357191202">03-5719-1202</a></span></p>
+</div>
+<div class="item">
+<p class="company"><span>土壌汚染調査</span></p>
+<p class="telsmall"><span><a href="tel:0357193356">03-5719-3356</a></span></p>
+</div>
+<div class="item">
+<p class="company"><span>デューデリジェンス</span></p>
+<p class="telsmall"><span><a href="tel:0357196641">03-5719-6641</a></span></p>
+</div>
+</div>
+<p class="time"><span>営業時間</span>：月～金 ９:００～１8:00<br>※土、日、祝日、年末年始定休となります。</p>
+</div>
+<div class="col link">
+<p><a href="#"><span>お問合せフォーム</span></a></p>
+</div>
+</div>
+</div><!-- /mod-contact is-type-01 -->
+</div><!-- /area-contact-in -->
+</div><!-- /area-contact -->
+<div id="cloneBreads"></div>
+</div><!-- /wrapper -->
+<footer class="footer">
+  <p class="btn-cmn-pagetop"><a href="#" class="js-scroll"><span>PageTop</span></a></p>
+  <ul class="footer-login">
+    <li class="admission"><a href="/service/member/index.html"><span>入会方法はこちら</span></a></li>
+    <li class="login"><a href="http://www.tokyokantei.com/" target="_blank"><span>会員サービスログイン</span></a></li>
+  </ul>
+  <div class="footer-in">
+    <div class="footer-utility">
+      <ul class="footer-links">
+        <li><a href="/sitemap/index.html">サイトマップ</a></li>
+        <li><a href="/terms/index.html">サイト利用規定</a></li>
+        <li><a href="/privacy_policy01/index.html">プライバシーポリシー</a></li>
+        <li><a href="/security_policy/index.html">セキュリティポリシー</a></li>
+        <li><a href="/recruit/index.html">採用情報</a></li>
+      </ul>
+      <p class="footer-bnr"><a href="/iso/index.html"><img src="/common/img/bnr_iso27001.png" alt="東京カンテイはISO27001を全社・全業務を対象に取得しています。(IS 508296 / ISO27001)"></a></p>
+      <p class="footer-copyright">&copy; TOKYO KANTEI Co.,Ltd. All Rights Reserved.</p>
+    </div><!-- /footer-utility -->
+  </div><!-- /footer-in -->
+</footer>
+</body>
+</html>

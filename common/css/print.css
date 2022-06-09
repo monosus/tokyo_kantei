@@ -1,0 +1,32 @@
+/* ==========================================================
+ print setting
+========================================================== */
+.header,
+.footer,
+.area-contact,
+.area-title,
+.mod-fixed-menu-wrap,
+.nav-breadcrumb,
+.btn-print,
+.fb-like,
+.twitter-share-button,
+.contents-sub {
+  display: none !important;
+}
+
+.container {
+  background-color: #fff !important;
+  margin: 0 auto !important;
+  
+}
+
+.contents .contents-main,
+.contents .contents-main.lower {
+  width: 100% !important;
+  float: none !important;
+  margin: 0 auto !important;
+}
+
+.contents .contents-main-in {
+  margin: 0 !important;
+}

@@ -1,0 +1,352 @@
+@charset "UTF-8";
+/* ==========================================================
+ サービス案内
+========================================================== */
+/* メインビジュアル
+---------------------------------------------------------- */
+
+
+
+
+
+/* コンテンツ
+---------------------------------------------------------- */
+.contents-main {
+  width: 980px;
+  margin: 0 auto;
+}
+.contents-sub {
+  width: 200px;
+}
+@media screen and (max-width: 768px) {}
+/* パンくず
+---------------------------------------------------------- */
+.nav-breadcrumb {
+  width: 980px;
+  text-align: left;
+}
+@media screen and (max-width: 768px) {
+  .nav-breadcrumb {
+    width: auto;
+  }
+}
+.nav-breadcrumb li {
+  position: relative;
+  margin-left: 10px;
+}
+.nav-breadcrumb li:before {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+}
+/* アンカーリンク
+---------------------------------------------------------- */
+.box-ancher {}
+.box-ancher .list-ancher {}
+.box-ancher .list-ancher li {
+  display: inline-block;
+  margin-right: 30px;
+}
+.box-ancher .list-ancher li:last-child {
+  margin-right: 0;
+}
+.box-ancher .list-ancher li a {
+  position: relative;
+  width: 308px;
+  display: inline-block;
+  background-color: #23318f;
+  border-radius: 20px;
+  color: #fff;
+  text-align: center;
+  border: 1px solid #fff;
+}
+.box-ancher .list-ancher li a:hover {
+  background-color: #fff;
+  color: #23318f;
+  text-decoration: none;
+  border-radius: 20px;
+  border: 1px solid #23318f;
+}
+@media screen and (max-width: 768px) {}
+/* アコーディオン
+---------------------------------------------------------- */
+
+
+@media screen and (max-width: 768px) {}
+/* リスト
+---------------------------------------------------------- */
+.list-service {
+  margin-top: 44px;
+}
+.list-service .item01 {
+  margin-top: 20px;
+}
+.list-service .item01:first-child {
+  margin-top: 0;
+}
+.list-service .item01 .detail {
+  padding: 30px;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 768px) {}
+/* ボックス
+---------------------------------------------------------- */
+.box-border {
+  margin-top: 60px;
+  border: 1px solid #ccc;
+}
+.box-border .link a[target=_blank]:after {
+  content: '';
+  display: inline-block;
+  margin-left: 5px;
+  width: 15px;
+  height: 15px;
+  background: url(/common/img/ico_blank_23x23_01.png) no-repeat left top;
+  background-size: contain;
+}
+@media screen and (max-width: 768px) {}
+/* アイコン
+---------------------------------------------------------- */
+.ico-membership {
+  width: 66px;
+  color: #fff;
+  text-align: center;
+  background-color: #f7ab00;
+  float: right;
+}
+/* is
+---------------------------------------------------------- */
+.is-border {
+  border-top: 1px solid #ccc;
+}
+@media screen and (max-width: 768px) {}
+/* リンク
+---------------------------------------------------------- */
+.link:not('.col.link') a:after {
+  content: '';
+  display: inline-block;
+  margin-left: 5px;
+  width: 15px;
+  height: 15px;
+  background: url(/common/img/ico_blank_23x23_01.png) no-repeat left top;
+  background-size: contain;
+}
+@media screen and (max-width: 768px) {}
+/* ==========================================================
+ 会員制データサービスについて
+========================================================== */
+ul.grid-category > li a  {
+  position: relative;
+}
+ul.grid-category > li a:after  {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+ul.grid-category.s-member > li:nth-child(1) a:after {
+  background-image: url("/service/img/pic_service_01.jpg");
+}
+ul.grid-category.s-member > li:nth-child(2) a:after {
+  background-image: url("/service/img/pic_service_02.jpg");
+}
+figure.fig-member {
+  position: relative;
+}
+figure.fig-member figcaption {
+  position: absolute;
+  right: 53px;
+  bottom: 63px;
+}
+@media screen and (max-width: 768px) {
+  figure.fig-member figcaption {
+    position: static;
+    margin-top: 1em;
+  }
+}
+.table-member-ttl {
+  padding: .5em;
+  background-color: #dddfed;
+  font-size: 16px;
+  font-weight: bold;
+  color: #23318f;
+  text-align: center;
+}
+div.table-member-scroll {}
+@media screen and (max-width: 768px) {
+  div.table-member-scroll {
+    overflow-x: scroll;
+  }
+  div.table-member-scroll::-webkit-scrollbar {
+    height: 5px;
+  }
+  div.table-member-scroll::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background: #eee;
+  }
+  div.table-member-scroll::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: #666;
+  }
+}
+div.table-member-scroll table {
+  width: 100%;
+}
+div.table-member-scroll th,
+div.table-member-scroll td {
+  padding: 1em;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+@media screen and (max-width: 768px) {
+  div.table-member-scroll th,
+  div.table-member-scroll td {
+    white-space: nowrap;
+  }
+}
+div.table-member-scroll thead th {
+  background-color: #f2f3f8;
+}
+div.table-member-scroll thead .head01 th {
+  text-align: center;
+}
+div.table-member-scroll tbody th {
+  font-weight: bold;
+}
+div.table-member-scroll tbody td {
+  text-align: right;
+}
+div.table-member-scroll tbody td .ico-member-tel {
+  padding-left: 1.5em;
+  background: url("/common/img/ico_tel_30x30_01.png") no-repeat left center;
+  background-size: 16px;
+  font-weight: bold;
+  color: #23318f;
+}
+p.table-member-caption {
+  margin-top: 1em;
+}
+ol.list-member {
+  padding-bottom: 40px;
+  font-size: 18px;
+}
+@media screen and (max-width: 768px) {
+  ol.list-member {
+    font-size: 13px;
+  }
+}
+ol.list-member > li {
+  display: table;
+  table-layout: fixed;
+  position: relative;
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  ol.list-member > li {
+    display: block;
+  }
+}
+ol.list-member > li::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 20px 20px 0 20px;
+  border-color: #fff transparent transparent transparent;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+@media screen and (max-width: 768px) {
+  ol.list-member > li::after {
+    border-width: 15px 20px 0 20px;
+  }
+}
+ol.list-member > li:first-child::after {
+  display: none;
+}
+ol.list-member > li:nth-child(2n+1) {
+  background-color: #f2f3f8;
+}
+ol.list-member > li:nth-child(2n)::after {
+  border-color: #f2f3f8 transparent transparent transparent;
+}
+ol.list-member > li div {
+  display: table-cell;
+  padding: 1em;
+  height: 110px;
+  vertical-align: middle;
+  text-align: left;
+}
+@media screen and (max-width: 768px) {
+  ol.list-member > li div {
+    display: block;
+    height: auto;
+  }
+}
+ol.list-member > li div.list-member-head {
+  width: 30%;
+  font-weight: bold;
+}
+@media screen and (max-width: 768px) {
+  ol.list-member > li div.list-member-head {
+    padding-top: 1.25em;
+    padding-bottom: .5em;
+    width: 100%;
+  }
+}
+ol.list-member > li div.list-member-head h4 {}
+ol.list-member > li div.list-member-body {
+  width: 70%;
+}
+@media screen and (max-width: 768px) {
+  ol.list-member > li div.list-member-body {
+    padding-top: 0;
+    width: 100%;
+  }
+}
+ol.list-member > li div.list-member-body p {}
+
+/* 170615 追加
+---------------------------------------------------------- */
+.area-contact.department {
+  background-color: #fff;
+}
+
+.area-contact .mod-contact .link .btn-contact a {
+  width: 350px;
+  padding: 9px 0;
+}
+@media screen and (max-width: 768px) {
+  .area-contact .mod-contact .link .btn-contact a {
+    width: 100%;
+    padding: 22px 0;
+  }
+}
+.area-contact .mod-contact .link .description {
+  text-align: right;
+  margin-bottom: 1em;
+}
+@media screen and (max-width: 768px) {
+  .area-contact .mod-contact .link .description {
+    text-align: left;
+    margin-bottom: 1em;
+  }
+}

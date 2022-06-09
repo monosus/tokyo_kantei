@@ -1,0 +1,14 @@
+.iso-image {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 30px; }
+  @media screen and (max-width: 768px) {
+    .iso-image {
+      padding-bottom: 15px; } }
+  .iso-image img {
+    width: 454px; }
+    @media screen and (max-width: 768px) {
+      .iso-image img {
+        width: auto; } }
+
+/*# sourceMappingURL=style.css.map */

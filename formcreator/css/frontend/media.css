@@ -1,0 +1,271 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*-----------------------------------------------
+ユーザーフォームのレイアウト
+media.css
+-----------------------------------------------*/
+
+#designContainer .structure {
+	width:590px;
+	margin:auto;
+	*text-align:left;
+}
+body {
+	background:#eeeeee;
+	padding:20px;
+	font-size:14px;
+	color:#333;
+}
+#designContainer {
+	padding-bottom: 20px;
+}
+#mainContent {
+	background:white;
+	margin:0 auto;
+	padding:40px 30px;
+}
+#mainContent h1 {
+	font-size:20px;
+	line-height:1.2em;
+	padding-bottom:3px;
+	margin-bottom:20px;
+	*margin-bottom:10px;
+	*padding-bottom:5px;
+}
+#formarea dl {
+	margin-bottom:15px;
+	position:relative;
+	font-size:12px;
+}
+#designContainer input[type="text"], textarea, select {
+	border:1px solid #CCC;
+	margin:0 0 0 0;
+}
+#designContainer input[type="text"], #designContainer input[type="file"], textarea {
+	padding:2px;
+}
+#designContainer input[type="text"].default {
+ width: 16em;
+}
+
+#designContainer .btnSubmit {
+	text-align:center;
+	margin-top:10px;
+}
+#designContainer .btnSubmit input {
+	padding:4px 10px;
+}
+#designContainer .alignCenter {
+	text-align:center;
+}
+#designContainer .alignLeft {
+	text-align:left;
+}
+#designContainer .required {
+	font-weight:normal;
+	color:red;
+}
+#designContainer .floatLeft {
+	float:left;
+}
+#designContainer .floatRight {
+	float:right;
+}
+/*input*/
+#designContainer .selectMulti {
+	width:376px;
+	height:80px;
+}
+#designContainer .inputTextSingle {
+	width:97%;
+}
+#designContainer .inputTextShort {
+	width:100px;
+}
+#designContainer .inputTextTime {
+	width:50px;
+}
+#designContainer .inputTextName {
+	width:165px;
+}
+#designContainer .inputText3em {
+	width:3em;
+}
+#designContainer .inputText4em {
+	width:4em;
+}
+#designContainer .adjustImg {
+	margin-top:-5px;/*padding-bottom:5px;*/
+}
+dd div p {
+	margin-left:10px;
+	/*display:inline*/
+}
+.form-buttons {
+    text-align:center;
+}
+
+/*-----------------------------------------------
+ログイン画面
+-----------------------------------------------*/
+#mainContent.login.structure {
+	width:400px;
+}
+#mainContent.login #formarea dl dt {
+	width: auto;
+}
+/*-----------------------------------------------
+確認画面
+-----------------------------------------------*/
+#confirmarea {
+	width:100%;
+	border-collapse:collapse;
+}
+#confirmarea tbody {
+	border: 1px solid #DDD;
+}
+#confirmarea th, #confirmarea td {
+	border: 1px solid #DDD;
+	padding:8px;
+	word-break: break-all;
+}
+#confirmarea th {
+	width:150px;
+	text-align:left;
+}
+#confirmarea tfoot th, #confirmarea tfoot td {
+	border:none;
+}
+.exp {
+	margin-top:5px;
+	clear:both;
+}
+#formarea {
+	padding-top:10px;
+	clear:both;
+}
+
+/* error */
+.content_error {
+	margin:10px auto 40px;
+	padding:20px 0;
+	text-align:center;
+	background:#F1B911;
+	overflow:hidden;
+}
+.content_error .error_list {
+	position:static !important;
+}
+
+/*-----------------------------------------------
+@media 
+-----------------------------------------------*/
+/* for 700px or less */
+@media screen and (max-width: 700px) {
+#designContainer .structure {
+	padding:15px;
+	width:90%;
+}
+#mainContent #formarea dl {
+	overflow:hidden;
+	margin:0px 0 10px;
+}
+#mainContent #formarea dl dt {
+	width:auto !important;
+	padding:0;
+	float:none;
+}
+#mainContent #formarea dl dd {
+	clear:both;
+	float:none;
+}
+#designContainer input[type="text"].default {
+	width: 16em;
+}
+#designContainer .selectMulti {
+	width:79%;
+}
+textarea.default {
+	width:88% !important;
+}
+dd div p {
+	margin:0 10px 0 0;
+}
+.exp {
+	margin-left:0 !important;
+}
+.error_list {
+	margin-left:0 !important;
+}
+.structure dl dd select {
+	margin-bottom:5px;
+}
+.error_list {
+	top:46px;
+}
+}
+
+/* for 480px or less 
+(スマフォ横幅/古いiphone)
+*/
+@media screen and (max-width:480px) {
+body {
+	padding:10px !important;
+}
+#designContainer .structure, #mainContent.login.structure {
+	width:90%;
+}
+#designContainer input[type="text"].default {
+	width: 16em;
+}
+#designContainer .selectMulti {
+	width:92%;
+}
+ textarea.default {
+	width:91%;
+}
+dd div p {
+	margin:0 0 5px;
+	float:none;
+}
+#designContainer .btnSubmit input {
+	width:100% !important;
+}
+}
+
+/* for 320px or less 
+(スマフォ縦幅/古いiphone)*/
+@media screen and (max-width:320px) {
+#mainContent.login.structure {/*ログイン用*/
+	width:90%;
+}
+#designContainer input[type="text"].default {
+	width:95% ;
+}
+#designContainer .selectMulti {
+	width:100%;
+}
+textarea.default {
+	width:90% ;
+}
+dd div p {
+	margin:0 0 5px;
+	float:none;
+}
+#designContainer .inputTextSingle {
+	width:90%;
+}
+}
+.label-pos-0 {
+	text-align: left;
+}
+.label-pos-1 {
+	text-align: center;
+}
+.label-pos-2 {
+	text-align: right;
+}
+.label-pos-3 {
+    display:none;
+}

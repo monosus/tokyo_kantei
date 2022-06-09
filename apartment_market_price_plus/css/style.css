@@ -1,0 +1,1140 @@
+@charset "UTF-8";
+/* ==========================================================
+ マンション相場Plusページ
+========================================================== */
+/* 大枠
+---------------------------------------------------------- */
+.wrapper {
+  padding: 72px 0 0;
+  min-width: 1263px; }
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    padding-top: 50px;
+    min-width: auto;
+    min-width: initial; } }
+.container {
+  min-width: 910px;
+  padding: 54px 0 0; }
+  .container.apartment_market_price_plus {
+    width: 910px;
+    margin: 0 auto;
+    padding: 55px 0 100px; }
+    @media screen and (max-width: 768px) {
+      .container.apartment_market_price_plus {
+        width: 100%;
+        min-width: initial;
+        min-width: auto;
+        padding: 34px 15px 50px; } }
+
+@media screen and (max-width: 768px) {
+  .container.apartment_market_price_plus {
+    width: 100%;
+    min-width: initial;
+    min-width: auto;
+    padding: 34px 15px 50px; } }
+.contents {
+  min-width: auto;
+  min-width: initial; }
+
+/* header
+---------------------------------------------------------- */
+.header {
+  height: 72px; }
+
+@media screen and (max-width: 768px) {
+  .header {
+    height: 50px !important; } }
+#header .header-logo {
+  border-right: none;
+  padding: 20px 0 0 28px;
+  height: 71px; }
+
+@media screen and (max-width: 768px) {
+  #header .header-logo {
+    padding: 12px 0 0 18px !important;
+    /*width: 152px;*/
+    height: 24px !important; } }
+.header-logo a {
+  width: 200px;
+  height: 35px; }
+
+@media screen and (max-width: 768px) {
+  .header-logo a {
+    width: 152px;
+    height: 26px; } }
+/* hero-banner
+---------------------------------------------------------- */
+.hero-banner-wrap {
+  display: block;
+  position: relative;
+  background-color: #23318f;
+  color: #fff;
+  height: 360px;
+  overflow: hidden; }
+
+@media screen and (max-width: 768px) {
+  .hero-banner-wrap {
+    padding: 31px 15px 30px;
+    height: 271px; } }
+.hero-banner-bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 52%;
+  min-width: 456px;
+  height: 360px;
+  background: url(/apartment_market_price_plus/img/bg_apartment_market_price_plus_01.jpg) no-repeat left top;
+  background-size: cover; }
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .hero-banner-bg {
+    width: calc(100% - 195px);
+    height: auto;
+    min-width: auto;
+    min-width: initial;
+    background-position: left 50% top 0; } }
+@media screen and (max-width: 424px) {
+  .hero-banner-bg {
+    width: 52%;
+    height: auto;
+    min-width: auto;
+    min-width: initial;
+    background-position: left 50% top 0; } }
+.hero-banner-bg:before {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 364px 254px 0 0;
+  border-color: #23318f transparent transparent transparent; }
+
+@media screen and (max-width: 768px) {
+  .hero-banner-bg:before {
+    border-width: 283px 198px 0 0; } }
+.hero-banner {
+  position: relative;
+  width: 1140px;
+  margin: 0 auto;
+  padding-left: 0;
+  height: 285px;
+  background-image: url(/apartment_market_price_plus/img/ico_index_info_new_02.png);
+  background-size: 250px;
+  background-position: 100%  50%;
+  background-repeat: no-repeat;
+  top: 50%;
+  transform: translateY(-50%); }
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  .hero-banner {
+    background-image: none;
+    width: 100%;
+    padding-left: 0;
+    background-size: 82px;
+    background-position: 0 0;
+    height: auto;
+    font-size: 35px; } }
+@media screen and (max-width: 374px) {
+  .hero-banner {
+    background-image: none;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    background-size: 25%;
+    background-position: 0 0;
+    height: auto;
+    font-size: 35px; } }
+.hero-banner__title {
+  width: 635px;
+  padding-top: 7px;
+  font-size: 60px;
+  font-family: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", serif;
+  font-weight: 600;
+  border-bottom: 1px solid #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: -4px;
+  line-height: 1.6; }
+  @supports (-ms-ime-align: auto) {
+    .hero-banner__title {
+      letter-spacing: -4px; } }
+  @media all and (-ms-high-contrast: none) {
+    .hero-banner__title {
+      letter-spacing: 2px;
+      font-family: "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif; } }
+
+@-moz-document url-prefix() {
+  .hero-banner__title {
+    letter-spacing: -1px; } }
+@media screen and (max-width: 768px) {
+  .hero-banner__title {
+    width: 100%;
+    margin-left: 0;
+    padding: 0 0 10px 0;
+    font-size: 35px;
+    left: 0;
+    letter-spacing: -2px;
+    border-bottom: none; } }
+.hero-banner__spacing {
+  display: inline-block;
+  letter-spacing: 1px;
+  margin-left: 4px; }
+  @media screen and (max-width: 768px) {
+    .hero-banner__spacing {
+      letter-spacing: 2px; } }
+
+.hero-banner__tag--pc {
+  display: inline-block;
+  padding: 9px 24px;
+  line-height: 1;
+  font-size: 16px;
+  font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+  border-radius: 3px;
+  background-color: #f7ab00;
+  vertical-align: middle;
+  letter-spacing: 1px;
+  position: absolute;
+  top: 42%;
+  left: initial;
+  right: 0; }
+
+@media all and (-ms-high-contrast: none) {
+  .hero-banner__tag--pc {
+    font-family: "メイリオ", Meiryo, sans-serif !important; } }
+@media screen and (max-width: 768px) {
+  .hero-banner__tag--pc {
+    display: none; } }
+.hero-banner__tag--sp {
+  display: none; }
+
+@media screen and (max-width: 768px) {
+  .hero-banner__tag--sp {
+    margin: 53px 0 0 0;
+    display: inline-block;
+    padding: 0 18px;
+    line-height: 27px;
+    font-size: 13px;
+    font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+    border-radius: 3px;
+    background-color: #f7ab00;
+    vertical-align: middle; } }
+@media screen and (max-width: 768px) {
+  .hero-banner__tag--sp {
+    margin: 53px 0 0 0;
+    display: inline-block;
+    padding: 0 18px;
+    line-height: 27px;
+    font-size: 13px;
+    font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+    border-radius: 3px;
+    background-color: #f7ab00;
+    vertical-align: middle; } }
+.hero-banner__subtitle {
+  padding-top: 128px;
+  font-size: 24px;
+  line-height: 1.35;
+  letter-spacing: 0.5px;
+  font-weight: bold; }
+
+@media screen and (max-width: 768px) {
+  .hero-banner__subtitle {
+    padding-top: 10px;
+    font-size: 17px;
+    line-height: 1.35;
+    letter-spacing: 0; } }
+.hero-banner__text {
+  padding-top: 10px;
+  font-size: 18px;
+  line-height: 1.65;
+  letter-spacing: 1px;
+  font-weight: bold; }
+
+@media screen and (max-width: 768px) {
+  .hero-banner__text {
+    padding: 10px 25px 0 0;
+    font-size: 12px;
+    line-height: 1.58;
+    letter-spacing: 0; } }
+.hero-banner__note {
+  font-size: 12px;
+  margin-left: 22px; }
+
+.hero-banner__info-sp {
+  display: none;
+  color: #23318f;
+  background-color: #fff;
+  text-align: center; }
+
+@media screen and (max-width: 768px) {
+  .hero-banner__info-sp {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100vw;
+    margin: 15px -15px 0;
+    font-size: 25px;
+    font-family: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", serif;
+    height: 40px;
+    color: #23318f;
+    letter-spacing: -0.5px; }
+
+  .hero-banner__info-sp span {
+    margin-left: 10px;
+    font-size: 17px;
+    vertical-align: text-top; } }
+.hero-banner__link:after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  border: 0px;
+  border-top: solid 2px #23318f;
+  border-right: solid 2px #23318f;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: absolute;
+  top: 50%;
+  right: 29px;
+  margin-top: -6px; }
+
+@media screen and (max-width: 768px) {
+  .hero-banner__link:after {
+    width: 9px;
+    height: 9px;
+    top: 17px;
+    margin-top: 0;
+    right: 21px; } }
+/* =================================
+contents
+================================= */
+/* txt-apartment-market-price-plus-01
+---------------------------------------------------------- */
+@media screen and (max-width: 768px) {
+  .txt-apartment-market-price-plus-01 {
+    font-size: 13px;
+    line-height: 21px;
+    letter-spacing: -0.5px; } }
+/* box-apartment-market-price-plus-01
+---------------------------------------------------------- */
+.box-apartment-market-price-plus-01 {
+  position: relative;
+  border: 1px solid #ccc;
+  padding: 28px 40px 35px 40px; }
+  @media screen and (max-width: 768px) {
+    .box-apartment-market-price-plus-01 {
+      padding: 20px 20px 12px 20px; } }
+  .box-apartment-market-price-plus-01:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 40px;
+    width: 30px;
+    border-top: 4px solid #23318f; }
+    @media screen and (max-width: 768px) {
+      .box-apartment-market-price-plus-01:before {
+        left: 20px;
+        width: 30px; } }
+  .box-apartment-market-price-plus-01__title {
+    color: #23318f;
+    font-weight: bold;
+    font-size: 30px; }
+    @media screen and (max-width: 768px) {
+      .box-apartment-market-price-plus-01__title {
+        font-size: 24px;
+        line-height: 40px; } }
+
+/* box-apartment-market-price-plus-02
+---------------------------------------------------------- */
+.box-apartment-market-price-plus-02__title {
+  background-color: #000;
+  color: #fff;
+  line-height: 60px;
+  padding-left: 40px;
+  font-size: 24px; }
+  @media screen and (max-width: 768px) {
+    .box-apartment-market-price-plus-02__title {
+      line-height: 40px;
+      padding-left: 20px;
+      font-size: 18px; } }
+.box-apartment-market-price-plus-02__list {
+  list-style-type: decimal;
+  list-style: decimal;
+  counter-reset: brackets 0;
+  margin-top: 35px; }
+  @media screen and (max-width: 768px) {
+    .box-apartment-market-price-plus-02__list {
+      margin-top: 14px; } }
+.box-apartment-market-price-plus-02__item {
+  position: relative;
+  padding-left: 50px; }
+  @media all and (-ms-high-contrast: none) {
+    .box-apartment-market-price-plus-02__item {
+      font-size: 0; } }
+  @supports (-ms-ime-align: auto) {
+    .box-apartment-market-price-plus-02__item {
+      font-size: 0; } }
+  @media screen and (max-width: 768px) {
+    .box-apartment-market-price-plus-02__item {
+      padding-left: 35px; } }
+  .box-apartment-market-price-plus-02__item:before {
+    content: "(" counter(brackets) ")";
+    counter-increment: brackets 1;
+    display: block;
+    position: absolute;
+    line-height: 1;
+    top: 4px;
+    left: 8px;
+    font-size: 16px; }
+    @media screen and (max-width: 768px) {
+      .box-apartment-market-price-plus-02__item:before {
+        top: 4px;
+        left: 8px;
+        font-size: 13px; } }
+  .box-apartment-market-price-plus-02__item + .box-apartment-market-price-plus-02__item {
+    margin-top: 13px; }
+    @media screen and (max-width: 768px) {
+      .box-apartment-market-price-plus-02__item + .box-apartment-market-price-plus-02__item {
+        margin-top: 10px; } }
+.box-apartment-market-price-plus-02__text {
+  font-size: 16px;
+  letter-spacing: -1px; }
+  @media screen and (max-width: 768px) {
+    .box-apartment-market-price-plus-02__text {
+      font-size: 13px;
+      letter-spacing: 0; } }
+  .box-apartment-market-price-plus-02__text span {
+    font-weight: bold; }
+.box-apartment-market-price-plus-02__note {
+  padding-left: 10px;
+  text-indent: -10px;
+  font-size: 13px;
+  letter-spacing: -0.5px;
+  color: #999;
+  margin-top: 3px; }
+  @media screen and (max-width: 768px) {
+    .box-apartment-market-price-plus-02__note {
+      padding-left: 10px;
+      text-indent: -10px;
+      font-size: 11px;
+      letter-spacing: -0.5px; } }
+  @media screen and (max-width: 768px) {
+    .box-apartment-market-price-plus-02__note:first-of-type {
+      margin-top: 5px; } }
+.box-apartment-market-price-plus-02__link {
+  color: #23318f;
+  text-decoration: underline;
+  font-size: 16px; }
+  @media screen and (max-width: 768px) {
+    .box-apartment-market-price-plus-02__link {
+      font-size: 13px; } }
+  .box-apartment-market-price-plus-02__link:hover {
+    text-decoration: none; }
+
+/* box-apartment-market-price-plus-03
+---------------------------------------------------------- */
+.box-apartment-market-price-plus-03 {
+  position: relative;
+  background-color: #f2f3f8;
+  padding: 30px 40px 40px; }
+  @media screen and (max-width: 768px) {
+    .box-apartment-market-price-plus-03 {
+      padding: 16px 20px 20px; } }
+  .box-apartment-market-price-plus-03:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 40px;
+    width: 30px;
+    border-top: 4px solid #23318f; }
+    @media screen and (max-width: 768px) {
+      .box-apartment-market-price-plus-03:before {
+        left: 20px;
+        width: 30px; } }
+  .box-apartment-market-price-plus-03__title {
+    color: #23318f;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 44px;
+    letter-spacing: -3px;
+    margin-bottom: 20px; }
+    @media screen and (max-width: 768px) {
+      .box-apartment-market-price-plus-03__title {
+        font-size: 23px;
+        line-height: 44px;
+        letter-spacing: -1px;
+        margin-bottom: 9px; } }
+  .box-apartment-market-price-plus-03__card {
+    display: block;
+    overflow: hidden;
+    text-decoration: none;
+    background-color: #fff;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    padding: 30px 62px 30px 30px; }
+    @media screen and (max-width: 768px) {
+      .box-apartment-market-price-plus-03__card {
+        padding: 0; } }
+    .box-apartment-market-price-plus-03__card:hover {
+      text-decoration: none; }
+      .box-apartment-market-price-plus-03__card:hover .box-apartment-market-price-plus-03__image img {
+        opacity: 0.7;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease; }
+      .box-apartment-market-price-plus-03__card:hover .box-apartment-market-price-plus-03__detail * {
+        text-decoration: none;
+        opacity: 0.7;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease; }
+  .box-apartment-market-price-plus-03__image {
+    float: left;
+    margin-right: 20px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 10px; }
+    @media screen and (max-width: 768px) {
+      .box-apartment-market-price-plus-03__image {
+        float: none;
+        margin-right: 0;
+        margin-bottom: 0; } }
+    .box-apartment-market-price-plus-03__image img {
+      width: 280px; }
+      @media screen and (max-width: 768px) {
+        .box-apartment-market-price-plus-03__image img {
+          width: 100%; } }
+  .box-apartment-market-price-plus-03__detail {
+    background-color: #fff;
+    text-decoration: none;
+    padding: 0;
+    position: relative; }
+    @media screen and (max-width: 768px) {
+      .box-apartment-market-price-plus-03__detail {
+        padding: 17px 40px 18px 20px; } }
+    .box-apartment-market-price-plus-03__detail:after {
+      content: '';
+      width: 10px;
+      height: 10px;
+      border-top: solid 3px #23318f;
+      border-right: solid 3px #23318f;
+      -ms-transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+      transform: rotate(45deg);
+      position: absolute;
+      top: 50%;
+      right: -33px; }
+      @media screen and (max-width: 768px) {
+        .box-apartment-market-price-plus-03__detail:after {
+          border-top: solid 3px #23318f;
+          border-right: solid 3px #23318f;
+          top: 50%;
+          right: 15px;
+          margin-top: -6px; } }
+  .box-apartment-market-price-plus-03__itemtitle {
+    font-weight: bold;
+    position: relative;
+    font-size: 20px;
+    line-height: 19px;
+    margin-top: 3px; }
+    @media screen and (max-width: 768px) {
+      .box-apartment-market-price-plus-03__itemtitle {
+        font-size: 15px;
+        line-height: 19px;
+        margin-top: 0; } }
+    .box-apartment-market-price-plus-03__itemtitle:after {
+      position: absolute;
+      top: -3px;
+      right: 0;
+      content: "会員制";
+      font-weight: normal;
+      color: #fff;
+      background-color: #f7ab00;
+      text-align: center;
+      font-size: 15px;
+      line-height: 24px;
+      padding: 0 10px; }
+      @media screen and (max-width: 768px) {
+        .box-apartment-market-price-plus-03__itemtitle:after {
+          top: 0;
+          right: -20px;
+          font-size: 12px;
+          line-height: 19px;
+          padding: 0 8px; } }
+  .box-apartment-market-price-plus-03__subtitle {
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 14px;
+    letter-spacing: -0.5px;
+    line-height: 1.7; }
+    @media screen and (max-width: 768px) {
+      .box-apartment-market-price-plus-03__subtitle {
+        margin-top: 13px;
+        font-size: 12px;
+        letter-spacing: normal;
+        line-height: 1.625; } }
+  .box-apartment-market-price-plus-03__text {
+    margin-top: 10px;
+    font-size: 14px;
+    letter-spacing: -0.5px; }
+    @media screen and (max-width: 768px) {
+      .box-apartment-market-price-plus-03__text {
+        margin-top: 5px;
+        font-size: 12px;
+        letter-spacing: normal; } }
+  .box-apartment-market-price-plus-03__note {
+    color: #999;
+    margin-top: 6px;
+    padding-left: 0;
+    text-indent: 0;
+    font-size: 13px;
+    letter-spacing: -0.5px; }
+    @media screen and (max-width: 768px) {
+      .box-apartment-market-price-plus-03__note {
+        margin-top: 6px;
+        padding-left: 10px;
+        text-indent: -10px;
+        font-size: 11px;
+        letter-spacing: -0.5px; } }
+
+/* box-apartment-market-price-plus-04
+---------------------------------------------------------- */
+.box-apartment-market-price-plus-04 {
+  background-color: #f2f3f8; }
+  .box-apartment-market-price-plus-04__title {
+    background-color: #22318f;
+    color: #fff;
+    line-height: 60px;
+    padding-left: 40px;
+    font-size: 24px;
+    font-weight: bold; }
+    @media screen and (max-width: 768px) {
+      .box-apartment-market-price-plus-04__title {
+        line-height: 40px;
+        padding-left: 20px;
+        font-size: 18px; } }
+  .box-apartment-market-price-plus-04__inner {
+    padding: 0 40px 40px; }
+    @media screen and (max-width: 768px) {
+      .box-apartment-market-price-plus-04__inner {
+        padding: 20px; } }
+  .box-apartment-market-price-plus-04__text-pc {
+    display: block;
+    margin-top: 20px;
+    padding-left: 45px;
+    min-height: 33px;
+    background-image: url(/apartment_market_price_plus/img/ico_magnify_01.png);
+    background-repeat: no-repeat;
+    background-size: 33px;
+    background-position: top 0 left 0;
+    vertical-align: middle;
+    line-height: 33px;
+    font-size: 16px; }
+    @media screen and (max-width: 768px) {
+      .box-apartment-market-price-plus-04__text-pc {
+        display: none; } }
+  .box-apartment-market-price-plus-04__text-sp {
+    display: none; }
+    @media screen and (max-width: 768px) {
+      .box-apartment-market-price-plus-04__text-sp {
+        display: block;
+        padding-left: 37px;
+        min-height: 25px;
+        background-image: url(/apartment_market_price_plus/img/ico_magnify_01.png);
+        background-repeat: no-repeat;
+        background-size: 25px;
+        background-position: top 0 left 0;
+        font-size: 13px;
+        padding-top: 2px; } }
+  .box-apartment-market-price-plus-04__imagewrap-pc {
+    overflow: hidden;
+    margin-top: 20px; }
+    @media screen and (max-width: 768px) {
+      .box-apartment-market-price-plus-04__imagewrap-pc {
+        display: none; } }
+  .box-apartment-market-price-plus-04__imagewrap-sp {
+    display: none; }
+    @media screen and (max-width: 768px) {
+      .box-apartment-market-price-plus-04__imagewrap-sp {
+        overflow: hidden;
+        display: block;
+        margin-top: 20px; } }
+  .box-apartment-market-price-plus-04__image {
+    width: 395px; }
+    @media screen and (max-width: 768px) {
+      .box-apartment-market-price-plus-04__image {
+        width: 100%;
+        position: relative; } }
+    .box-apartment-market-price-plus-04__image:first-child {
+      float: left; }
+    .box-apartment-market-price-plus-04__image:last-child {
+      float: right; }
+      @media screen and (max-width: 768px) {
+        .box-apartment-market-price-plus-04__image:last-child {
+          margin-top: 20px; } }
+    @media screen and (max-width: 768px) {
+      .box-apartment-market-price-plus-04__image img {
+        width: 100%; } }
+
+/* list-apartment-market-price-plus-01
+---------------------------------------------------------- */
+.list-apartment-market-price-plus-01 {
+  margin-top: -5px; }
+  @media screen and (max-width: 768px) {
+    .list-apartment-market-price-plus-01 {
+      margin-top: 0; } }
+  .list-apartment-market-price-plus-01__item {
+    background-repeat: no-repeat;
+    padding: 20px 0 25px 54px;
+    background-size: auto 24px;
+    background-position: top 29px left 0; }
+    @media screen and (max-width: 768px) {
+      .list-apartment-market-price-plus-01__item {
+        padding: 20px 0 15px 50px;
+        background-size: auto 25px;
+        background-position: top 20px left 0; } }
+    .list-apartment-market-price-plus-01__item:nth-of-type(1) {
+      background-image: url(/apartment_market_price_plus/img/ico_number_01.png); }
+    .list-apartment-market-price-plus-01__item:nth-of-type(2) {
+      background-image: url(/apartment_market_price_plus/img/ico_number_02.png); }
+    .list-apartment-market-price-plus-01__item:nth-of-type(3) {
+      background-image: url(/apartment_market_price_plus/img/ico_number_03.png); }
+    .list-apartment-market-price-plus-01__item:nth-of-type(4) {
+      background-image: url(/apartment_market_price_plus/img/ico_number_04.png); }
+    .list-apartment-market-price-plus-01__item:nth-of-type(5) {
+      background-image: url(/apartment_market_price_plus/img/ico_number_05.png); }
+  .list-apartment-market-price-plus-01__item + .list-apartment-market-price-plus-01__item {
+    border-top: 1px solid #ccc; }
+  .list-apartment-market-price-plus-01__itemtitle {
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: -1px;
+    line-height: 1.9; }
+    @media screen and (max-width: 768px) {
+      .list-apartment-market-price-plus-01__itemtitle {
+        font-size: 18px;
+        letter-spacing: -1px;
+        line-height: 1.625; } }
+    .list-apartment-market-price-plus-01__itemtitle span {
+      letter-spacing: -2px; }
+      @media screen and (max-width: 768px) {
+        .list-apartment-market-price-plus-01__itemtitle span {
+          letter-spacing: -2px; } }
+  .list-apartment-market-price-plus-01__childitem {
+    position: relative;
+    padding-left: 17px;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0; }
+    @media screen and (max-width: 768px) {
+      .list-apartment-market-price-plus-01__childitem {
+        padding-left: 16px;
+        font-size: 13px;
+        line-height: 1.6;
+        letter-spacing: -1px;
+        margin-top: 6px; } }
+    .list-apartment-market-price-plus-01__childitem:before {
+      content: "・";
+      font-size: 38px;
+      color: #22318f;
+      position: absolute;
+      top: -17px;
+      left: -15px; }
+      @media screen and (max-width: 768px) {
+        .list-apartment-market-price-plus-01__childitem:before {
+          font-size: 38px;
+          top: -20px;
+          left: -15px; } }
+
+/* list-apartment-market-price-plus-02
+---------------------------------------------------------- */
+.list-apartment-market-price-plus-02 {
+  font-size: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px; }
+  @media screen and (max-width: 768px) {
+    .list-apartment-market-price-plus-02 {
+      margin-top: -3px; } }
+  .list-apartment-market-price-plus-02__item {
+    width: 50%;
+    padding: 28px 0 25px; }
+    @media screen and (max-width: 768px) {
+      .list-apartment-market-price-plus-02__item {
+        display: block;
+        padding: 20px 0 15px;
+        width: 100%; } }
+    @media screen and (max-width: 768px) {
+      .list-apartment-market-price-plus-02__item + .list-apartment-market-price-plus-02__item {
+        border-top: 1px solid #ccc; } }
+    .list-apartment-market-price-plus-02__item:nth-of-type(n+3) {
+      border-top: 1px solid #ccc; }
+      @media screen and (max-width: 768px) {
+        .list-apartment-market-price-plus-02__item:nth-of-type(n+3) {
+          border-top: 1px solid #ccc; } }
+    .list-apartment-market-price-plus-02__item:nth-of-type(2n+1) {
+      padding-right: 34px; }
+      @media screen and (max-width: 768px) {
+        .list-apartment-market-price-plus-02__item:nth-of-type(2n+1) {
+          padding-right: 0; } }
+    .list-apartment-market-price-plus-02__item:nth-of-type(2n) {
+      border-left: 1px solid #ccc;
+      padding-left: 30px; }
+      @media screen and (max-width: 768px) {
+        .list-apartment-market-price-plus-02__item:nth-of-type(2n) {
+          border-left: none;
+          padding-left: 0; } }
+    .list-apartment-market-price-plus-02__item:not(:nth-of-type(n+3)) {
+      padding-top: 0; }
+      @media screen and (max-width: 768px) {
+        .list-apartment-market-price-plus-02__item:not(:nth-of-type(n+3)) {
+          padding-top: 20px; } }
+    .list-apartment-market-price-plus-02__item:nth-of-type(n+5) {
+      padding-bottom: 0; }
+      @media screen and (max-width: 768px) {
+        .list-apartment-market-price-plus-02__item:nth-of-type(n+5) {
+          padding-bottom: 20px; } }
+    .list-apartment-market-price-plus-02__item .list-apartment-market-price-plus-02__icon {
+      width: 80px;
+      margin-right: 15px; }
+      @supports (-ms-ime-align: auto) {
+        .list-apartment-market-price-plus-02__item .list-apartment-market-price-plus-02__icon {
+          top: 0;
+          transform: none; } }
+      @media screen and (max-width: 768px) {
+        .list-apartment-market-price-plus-02__item .list-apartment-market-price-plus-02__icon {
+          position: static;
+          top: auto;
+          transform: none;
+          width: 60px;
+          margin-right: 15px;
+          vertical-align: auto; } }
+  .list-apartment-market-price-plus-02__title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 24px; }
+    @media screen and (max-width: 768px) {
+      .list-apartment-market-price-plus-02__title {
+        font-size: 18px; } }
+    .list-apartment-market-price-plus-02__title > div {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: start;
+      -ms-flex-pack: start;
+      justify-content: flex-start;
+      position: relative; }
+  .list-apartment-market-price-plus-02__text {
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: -1px; }
+    @media screen and (max-width: 768px) {
+      .list-apartment-market-price-plus-02__text {
+        margin-top: 10px;
+        font-size: 13px;
+        line-height: 1.6;
+        letter-spacing: normal; } }
+  .list-apartment-market-price-plus-02__note {
+    color: #999;
+    padding-left: 10px;
+    text-indent: -10px;
+    font-size: 13px;
+    margin-top: 3px; }
+    @media screen and (max-width: 768px) {
+      .list-apartment-market-price-plus-02__note {
+        padding-left: 10px;
+        text-indent: -10px;
+        font-size: 11px;
+        margin-top: 5px; } }
+
+/* list-apartment-market-price-plus-03
+---------------------------------------------------------- */
+.list-apartment-market-price-plus-03__item {
+  padding: 29px 0 25px; }
+  @media screen and (max-width: 768px) {
+    .list-apartment-market-price-plus-03__item {
+      padding: 25px 0 15px; } }
+  .list-apartment-market-price-plus-03__item + .list-apartment-market-price-plus-03__item {
+    border-top: 1px solid #ccc; }
+  .list-apartment-market-price-plus-03__item .list-apartment-market-price-plus-03__icon {
+    width: 60px;
+    margin-right: 15px; }
+.list-apartment-market-price-plus-03__text-question {
+  font-weight: bold;
+  position: relative;
+  font-size: 18px;
+  line-height: 1.6;
+  padding-left: 57px;
+  letter-spacing: -1px;
+  min-height: 43px;
+  color: #23318f; }
+  @media screen and (max-width: 768px) {
+    .list-apartment-market-price-plus-03__text-question {
+      font-size: 15px;
+      line-height: 1.6;
+      padding-left: 40px;
+      letter-spacing: -1px;
+      min-height: 43px;
+      color: #000; } }
+  .list-apartment-market-price-plus-03__text-question:before {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 33px;
+    background-image: url(/apartment_market_price_plus/img/ico_question_01.png);
+    background-repeat: no-repeat;
+    margin-top: -2px;
+    margin-left: -57px;
+    background-size: 25px auto;
+    background-position: top 0 left 0; }
+    @media screen and (max-width: 768px) {
+      .list-apartment-market-price-plus-03__text-question:before {
+        margin-top: -5px;
+        margin-left: -40px;
+        width: 24px;
+        height: 33px;
+        background-size: 24px auto;
+        background-position: top 0 left 0; } }
+  .list-apartment-market-price-plus-03__text-question p {
+    display: inline-block;
+    vertical-align: middle; }
+.list-apartment-market-price-plus-03__text-answer {
+  position: relative;
+  margin-top: 8px;
+  font-size: 16px;
+  line-height: 1.6;
+  padding-left: 57px; }
+  @media screen and (max-width: 768px) {
+    .list-apartment-market-price-plus-03__text-answer {
+      margin-top: 4px;
+      font-size: 13px;
+      line-height: 1.6;
+      padding-left: 40px; } }
+  .list-apartment-market-price-plus-03__text-answer:before {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 33px;
+    background-image: url(/apartment_market_price_plus/img/ico_answer_01.png);
+    background-repeat: no-repeat;
+    margin-top: -2px;
+    margin-left: -57px;
+    background-size: 24px auto;
+    background-position: top 0 left 0; }
+    @media screen and (max-width: 768px) {
+      .list-apartment-market-price-plus-03__text-answer:before {
+        margin-top: -5px;
+        margin-left: -40px;
+        width: 24px;
+        height: 25px;
+        background-size: 24px auto;
+        background-position: top 0 left 0; } }
+.list-apartment-market-price-plus-03__maintext {
+  letter-spacing: -0.5px; }
+  @media screen and (max-width: 768px) {
+    .list-apartment-market-price-plus-03__maintext {
+      letter-spacing: -1px;
+      line-height: 1.61; } }
+.list-apartment-market-price-plus-03__note {
+  color: #999;
+  padding-left: 12px;
+  text-indent: -12px;
+  font-size: 13px;
+  width: 710px;
+  margin-top: 5px;
+  letter-spacing: -0.5px; }
+  @media screen and (max-width: 768px) {
+    .list-apartment-market-price-plus-03__note {
+      padding-left: 10px;
+      text-indent: -10px;
+      font-size: 11px;
+      width: auto;
+      line-height: 1.7; } }
+
+/* txt-apartment-market-price-plus-note-01
+---------------------------------------------------------- */
+.txt-apartment-market-price-plus-note-01 {
+  margin-top: 7px;
+  padding-left: 18px;
+  text-indent: -18px;
+  font-size: 13px;
+  color: #999;
+  letter-spacing: -0.3px;
+  text-align: right; }
+  @media screen and (max-width: 768px) {
+    .txt-apartment-market-price-plus-note-01 {
+      margin-top: 7px;
+      padding-left: 32px;
+      text-indent: -32px;
+      font-size: 11px;
+      color: #999;
+      letter-spacing: -0.3px;
+      text-align: left; } }
+
+/* footer
+---------------------------------------------------------- */
+.footer .footer-in {
+  padding: 33px 0;
+  font-size: 12px;
+  line-height: 1.25;
+  text-align: center; }
+  @media screen and (max-width: 768px) {
+    .footer .footer-in {
+      padding: 16px 0;
+      font-size: 12px;
+      line-height: 1.25; } }
+
+/* =================================
+  plugin
+================================= */
+/* modal
+---------------------------------------------------------- */
+.popup-image {
+  width: 910px;
+  margin: 30px auto;
+  box-sizing: border-box; }
+  @media screen and (max-width: 909px) {
+    .popup-image {
+      width: calc(100% - 30px); } }
+  .popup-image-figure {
+    width: 100%;
+    border-bottom: 1px solid #ccc; }
+    .popup-image-figure img {
+      width: 100%; }
+  .popup-image-inner {
+    background-color: #fff;
+    padding: 33px 60px 40px; }
+    @media screen and (max-width: 768px) {
+      .popup-image-inner {
+        padding: 20px 20px 25px; } }
+  .popup-image-button {
+    z-index: 10;
+    position: relative;
+    background-color: #a39797;
+    border-radius: 30px;
+    text-align: center;
+    width: 318px;
+    line-height: 37px;
+    cursor: pointer;
+    margin: 34px auto 0;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+    @media screen and (max-width: 768px) {
+      .popup-image-button {
+        width: 200px;
+        margin: 16px auto 0; } }
+    .popup-image-button:hover {
+      opacity: 0.7;
+      -webkit-transition: all 0.3s ease;
+      -moz-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      transition: all 0.3s ease; }
+    .popup-image-button > a {
+      line-height: 37px;
+      padding: 0 10px;
+      font-size: 16px;
+      color: #fff;
+      display: block; }
+      @media screen and (max-width: 768px) {
+        .popup-image-button > a {
+          line-height: 30px;
+          font-size: 13px; } }
+      .popup-image-button > a:hover {
+        text-decoration: none; }
+  .popup-image-text {
+    letter-spacing: 0.2px; }
+    @media screen and (max-width: 768px) {
+      .popup-image-text {
+        font-size: 13px; } }
+    @media screen and (max-width: 768px) {
+      .popup-image-text br {
+        display: none; } }
+  .popup-image-notice {
+    font-size: 13px;
+    color: #999;
+    letter-spacing: -0.7px;
+    padding-left: 10px;
+    text-indent: -10px; }
+    @media screen and (max-width: 768px) {
+      .popup-image-notice {
+        margin-top: 2px;
+        font-size: 11px; } }
+
+@media (max-width: 900px) {
+  .mfp-container {
+    padding-left: 0 !important;
+    padding-right: 0 !important; } }
+.mfp-bg {
+  background: #000;
+  opacity: 0.9; }
+
+/* popup-links
+---------------------------------------------------------- */
+.popup {
+  cursor: pointer; }
+  @media screen and (max-width: 768px) {
+    .popup {
+      display: block;
+      position: absolute; }
+      .popup.popup-image {
+        margin: 0; }
+      .popup-links_01 {
+        width: 20%;
+        right: 2px;
+        top: 7.71%; }
+      .popup-links_02 {
+        width: 97%;
+        bottom: 2.8%;
+        left: 10px; }
+      .popup-links_03 {
+        width: 28.9%;
+        top: 0;
+        right: 0; }
+      .popup-links_04 {
+        width: 50%;
+        top: 22.7%;
+        right: 0; }
+      .popup-links_05 {
+        bottom: 1.7%;
+        left: 8px;
+        width: 98%; } }
+
+@media screen and (max-width: 768px) {
+  .popup-image-pc {
+    display: none; } }
+
+/*# sourceMappingURL=style.css.map */
+
+/* ==========================================================
+20210121
+新商品：マンション別賃料データPlus 告知
+===========================================================*/
+.s-20210121 .hero-banner {
+  background-image: none;
+}

@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+.errorBox{
+	background: #FFF;
+	border:1px solid #ffb7b7;	
+	margin:0 auto;
+	position:relative;
+	top:10px;
+	margin-bottom:30px;
+	color:red;
+	padding:10px;
+}
+.errorBox ul{
+    padding-left:45px;
+	background: url(/images/frontend/common/i_error.png) no-repeat;
+}
+.errorBox ul li{
+	list-style: disc inside;
+	padding:0 .8em;
+}
+
+.errorBox a{
+	text-decoration:none;
+	color: #f44 !important;
+	border-bottom: 1px solid red;
+}

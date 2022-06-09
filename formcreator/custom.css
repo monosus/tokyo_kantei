@@ -1,0 +1,322 @@
+@charset "UTF-8";
+/* ==========================================================
+ reseting
+========================================================== */
+body {
+  background-color: #fff;
+  line-height: 1.625;
+  color: #000;
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+  font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif; }
+@media all and (-ms-high-contrast: none) {
+  body *::-ms-backdrop, body {
+    font-family: "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif; } }
+@media screen and (max-width: 768px) {
+  body {
+    padding: 0 !important;
+    font-size: 14px; } }
+
+input, textarea, select, button {
+  font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif; }
+
+body, div, pre, p, blockquote, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, fieldset, th, td, button, figure, figcaption {
+  margin: 0;
+  padding: 0; }
+
+input, textarea {
+  margin: 0;
+  font-size: 100%; }
+
+input, textarea, select {
+  border-radius: 0; }
+
+textarea {
+  resize: none; }
+
+button {
+  border: none;
+  overflow: visible;
+  background: none;
+  vertical-align: top;
+  font-size: 100%;
+  color: inherit;
+  cursor: pointer;
+  -webkit-appearance: none; }
+
+label {
+  cursor: pointer; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: 100%; }
+
+fieldset {
+  border: 0; }
+
+img {
+  border: 0;
+  max-width: 100%;
+  height: auto;
+  vertical-align: top; }
+
+address, caption, code, em, th {
+  font-style: normal;
+  font-weight: normal; }
+
+ol, ul {
+  list-style: none; }
+
+caption, th {
+  text-align: left; }
+
+h1, h2, h3, h4, h5, h6, strong, em {
+  font-size: 100%; }
+
+a, input {
+  /* outline: none; -webkit-tap-highlight-color:rgba(0,0,0,0);*/ }
+
+sup, sub {
+  font-size: 63%; }
+
+sup {
+  vertical-align: top; }
+
+sub {
+  vertical-align: baseline; }
+
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+
+/* ==========================================================
+ base Link
+========================================================== */
+a {
+  color: #23318f;
+  text-decoration: none; }
+a:hover, a:active, a:focus {
+  text-decoration: underline; }
+
+/* ==========================================================
+ formcreator style
+========================================================== */
+#designContainer {
+  padding: 60px 0;
+}
+@media screen and (max-width: 768px) {
+  #designContainer {
+    padding: 0;
+  }
+}
+  #designContainer .structure {
+    box-shadow: none;
+    border-radius: 0;
+    padding: 30px 30px 40px;
+    width: 910px;
+    background-color: #f2f3f8;
+  }
+  @media screen and (max-width: 768px) {
+    #designContainer .structure {
+      padding: 15px 15px 20px;
+      width: 100%;
+    }
+  }
+    /* タイトル */
+    #mainContent h1 {
+      margin-bottom: .5em;
+      border: none;
+      font-size: 28px;
+      font-weight: bold;
+      color: #23318f;
+    }
+    @media screen and (max-width: 768px) {
+      #mainContent h1 {
+        font-size: 20px;
+      }
+    }
+    #formarea {}
+      /* フォームレイアウト */
+      #mainContent #formarea dl {
+        margin-bottom: 40px;
+        border-top: 1px solid #ccc;
+        font-size: 16px;
+      }
+      @media screen and (max-width: 768px) {
+        #mainContent #formarea dl {
+          margin-bottom: 20px;
+          border-top: none;
+          font-size: 14px;
+        }
+      }
+        #mainContent #formarea dl dt {
+          font-weight: bold;
+          clear: left;
+          float: left;
+          border-bottom: 1px solid #ccc;
+          padding: 20px;
+          width: 227px;
+          background-color: #fff;
+        }
+        #mainContent #display_order_post #formarea dl dt:nth-last-child(2) {
+          display: none;
+        }
+        @media screen and (max-width: 768px) {
+          #mainContent #formarea dl dt {
+            clear: none;
+            float: none;
+            position: relative;
+            overflow: hidden;
+            border: 1px solid #ccc;
+            padding: .75em 1em;
+            width: 100%;
+            height: auto !important;
+          }
+        }
+          #mainContent #formarea dl dt span.required_asterisk {
+            display: inline-block;
+            border-radius: 0;
+            padding: .25em 1em;
+            background-color: #f7ab00;
+            font-size: 12px;
+            font-weight: normal;
+            vertical-align: bottom;
+          }
+          @media screen and (max-width: 768px) {
+            #mainContent #formarea dl dt span.required_asterisk {
+              position: absolute;
+              right: 15px;
+              top: 50%;
+              -webkit-transform: translateY(-50%);
+              transform: translateY(-50%);
+            }
+          }
+        #mainContent #formarea dl dd {
+          margin: 0;
+          border-bottom: 1px solid #ccc;
+          padding: 20px 20px 20px 247px;
+        }
+        #mainContent #display_order_post #formarea dl dd:last-child {
+          border-bottom: none;
+          padding-left: 20px;
+          height: auto !important;
+          text-align: center;
+        }
+        @media screen and (max-width: 768px) {
+          #mainContent #formarea dl dd,
+          #mainContent #display_order_post #formarea dl dd:last-child {
+            border-bottom: none;
+            padding: 15px 0 35px;
+            height: auto !important;
+          }
+          #mainContent #display_order_post #formarea dl dd:last-child {
+            border-top: 1px solid #ccc;
+            padding: 20px 0;
+          }
+        }
+          /* フォームパーツスタイル */
+          #designContainer input[type="text"].default {
+            width: 480px;
+          }
+          @media screen and (max-width: 768px) {
+            #designContainer input[type="text"].default {
+              -webkit-appearance: none;
+              box-shadow: none;
+              padding: 1em;
+              width: 100%;
+            }
+          }
+          #designContainer input[type="checkbox"],
+          #designContainer input[type="radio"] {
+            margin-right: .5em;
+          }
+          @media screen and (max-width: 768px) {
+            #designContainer input[type="checkbox"],
+            #designContainer input[type="radio"] {
+              vertical-align: middle;
+            }
+          }
+          #designContainer .inputTextMulti.default {}
+          @media screen and (max-width: 768px) {
+            #designContainer .inputTextMulti.default {
+              -webkit-appearance: none;
+              box-shadow: none;
+              width: 100% !important;
+            }
+          }
+          #designContainer select {
+            height: 30px;
+            background-color: #fff;
+            font-size: 16px;
+          }
+          @media screen and (max-width: 768px) {
+            #designContainer select {
+              width: 100%;
+              height: 51px;
+              font-size: 14px;
+            }
+          }
+          #formarea dd div.space.checkbox p {
+            display: inline-block;
+            margin-right: 2em;
+            white-space: nowrap;
+          }
+          @media screen and (max-width: 768px) {
+            #formarea dd div.space.checkbox p {
+              padding: .25em 0;
+            }
+          }
+          #formarea dd div.exp {
+            clear: none;
+            font-size: 14px;
+          }
+          @media screen and (max-width: 768px) {
+            #formarea dd div.exp {
+              font-size: 12px;
+            }
+          }
+.form-buttons {}
+@media screen and (max-width: 768px) {
+}
+  .form-buttons .button {
+    border: none;
+    border-radius: 24px;
+    width: 318px;
+    height: 48px;
+    background: #666;
+    font-size: 16px;
+    color: #fff;
+    text-shadow: none;
+    letter-spacing: .05em;
+    -webkit-transition: opacity 0.4s ease;
+    -ms-transition: opacity 0.4s ease;
+    -moz-transition: opacity 0.4s ease;
+    -o-transition: opacity 0.4s ease;
+    transition: opacity 0.4s ease;
+  }
+  .form-buttons .button.orange {
+    background: #23318f;
+  }
+  @media screen and (max-width: 768px) {
+    .form-buttons .button {
+      width: 100%;
+    }
+    .form-buttons .button + .button {
+      margin-top: 20px;
+    }
+  }
+  .form-buttons .button:hover {
+    opacity: .7;
+  }
+  @media screen and (max-width: 768px) {
+  }
+.error_list {
+  overflow: hidden;
+  font-size: 12px;
+}
+  .error_list li {
+    border: none;
+    background: none;
+  }
+

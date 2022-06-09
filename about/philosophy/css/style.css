@@ -1,0 +1,36 @@
+/* ------------------------------------------------------
+ PHILOSOPHY
+------------------------------------------------------- */
+@media screen and (max-width: 768px) {
+  #g01.l01 .contents-main.lower {
+    padding-bottom: 25px; } }
+
+/* sec-philosophy
+-------------------------------------------------------*/
+.sec-philosophy .box-cmn {
+  padding-top: 30px;
+  border-top: 1px solid #ccc; }
+  @media screen and (max-width: 768px) {
+    .sec-philosophy .box-cmn {
+      padding-top: 20px; } }
+  .sec-philosophy .box-cmn .box-cmn-in {
+    display: table; }
+    .sec-philosophy .box-cmn .box-cmn-in .fig-cmn {
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+      padding-left: 10px; }
+      @media screen and (max-width: 768px) {
+        .sec-philosophy .box-cmn .box-cmn-in .fig-cmn {
+          padding-left: 0; } }
+      .sec-philosophy .box-cmn .box-cmn-in .fig-cmn img {
+        width: auto;
+        margin: 0 auto; }
+
+.ttl-wrap {
+  margin-bottom: 40px; }
+  @media screen and (max-width: 768px) {
+    .ttl-wrap {
+      margin-bottom: 25px; } }
+
+/*# sourceMappingURL=style.css.map */

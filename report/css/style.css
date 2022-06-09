@@ -1,0 +1,130 @@
+/* ==========================================================
+ modal
+========================================================== */
+/* box-modal
+---------------------------------------------------------- */
+.box-modal-wrap {
+  display: none; }
+
+.box-modal {
+  width: 1060px;
+  margin: 0 auto; }
+  .box-modal .btn-close-01 {
+    height: 300px;
+    position: relative;
+    cursor: pointer; }
+  .box-modal .btn-close-01 a {
+    position: absolute;
+    bottom: 95px;
+    right: -40px; }
+  .box-modal .btn-close-02 {
+    text-align: center;
+    padding-top: 40px;
+    cursor: pointer; }
+  .box-modal .btn-close-02 a {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    position: relative;
+    text-decoration: none; }
+    .box-modal .btn-close-02 a .icn-cross {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      margin-right: 10px; }
+  .box-modal .icn-cross:before,
+  .box-modal .icn-cross:after {
+    display: block;
+    content: '';
+    width: 4px;
+    height: 40px;
+    -webkit-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0; }
+  .box-modal .icn-cross:after {
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg); }
+  .box-modal .top-about {
+    background: #23318f;
+    padding: 0.5em 38px; }
+    .box-modal .top-about .title {
+      color: #fff;
+      font-size: 24px;
+      font-weight: bold; }
+  .box-modal .bottom-about {
+    padding: 30px 40px 60px;
+    background: #fff; }
+    .box-modal .bottom-about .text {
+      margin-bottom: 1.5em;
+      font-size: 16px; }
+      .box-modal .bottom-about .text a {
+        color: #23318f;
+        text-decoration: underline; }
+        .box-modal .bottom-about .text a:hover {
+          text-decoration: none; }
+    .box-modal .bottom-about .title {
+      margin: 55px 0 0.5em;
+      font-size: 24px; }
+    .box-modal .bottom-about .table-about {
+      width: 100%; }
+      .box-modal .bottom-about .table-about th,
+      .box-modal .bottom-about .table-about td {
+        font-size: 16px;
+        padding: 1em 20px;
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc; }
+      .box-modal .bottom-about .table-about th {
+        background: #f2f3f8;
+        width: 230px;
+        font-weight: bold; }
+a.modal_link {
+	font-weight: bold;
+}
+@media screen and (max-width: 768px) {
+  .box-modal {
+    width: 100%; }
+    .box-modal .btn-close-01 a {
+      position: absolute;
+      bottom: 70px;
+      right: 15px; }
+    .box-modal .top-about {
+      padding: 0.5em 15px; }
+      .box-modal .top-about .title {
+        font-size: 16px; }
+    .box-modal .bottom-about {
+      padding: 20px 15px 25px; }
+      .box-modal .bottom-about .text {
+        font-size: 13px; }
+      .box-modal .bottom-about .title {
+        margin: 30px 0 1em;
+        font-size: 16px;
+        font-weight: bold; }
+      .box-modal .bottom-about .table-about {
+        display: block; }
+        .box-modal .bottom-about .table-about tr,
+        .box-modal .bottom-about .table-about th,
+        .box-modal .bottom-about .table-about td {
+          display: block;
+          width: 100%; }
+        .box-modal .bottom-about .table-about th,
+        .box-modal .bottom-about .table-about td {
+          font-size: 13px; }
+        .box-modal .bottom-about .table-about td {
+          border: none;
+          padding: 1em 0; } }
+#colorbox,
+#cboxOverlay,
+#cboxWrapper,
+#cboxLoadedContent {
+  z-index: 0 !important;
+  overflow: initial !important; }
+
+#cboxContent {
+  background: none; }
+
+/*# sourceMappingURL=style.css.map */

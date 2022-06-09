@@ -1,0 +1,2 @@
+<script type="text/javascript">var Eviry=Eviry||{};Eviry.Player||(Eviry.Player={});Eviry.Player.embedkey="EK1PgtbdW1vYUqXJ-hfAj7XNnownNeuIs95M-l1WsUEvh_X-XI4O615pO0hLSg49oKkvMVPZeH10QrhaVanG5IeOdhvmZg0R0Y4rnfTMYDWg6A.";</script>
+<script type="text/javascript" src="https://d1euehvbqdc1n9.cloudfront.net/001/eviry/js/eviry.player.min.js"></script>
